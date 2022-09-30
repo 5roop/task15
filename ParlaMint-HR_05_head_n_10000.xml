@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI>
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hr" xml:id="ParlaMint-HR_T05" ana="#parla.term #reference">
 	<teiHEADER>Header should be filled out. Right now it is not.</teiHEADER>
 	<text>
 		<body>
