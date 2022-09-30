@@ -1,6 +1,315 @@
 <?xml version="1.0" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hr" xml:id="ParlaMint-HR_T05" ana="#parla.term #reference">
-	<teiHEADER>Header should be filled out. Right now it is not.</teiHEADER>
+	<teiHeader>
+		
+      
+		<fileDesc>
+			
+         
+			<titleStmt>
+				
+            
+				<title type="main" xml:lang="hr">Hrvatski parlamentarni korpus ParlaMint-HR, Mandat 5 [ParlaMint SAMPLE]</title>
+				
+            
+				<title type="main" xml:lang="en">Croatian parliamentary corpus ParlaMint-HR, Term 5 [ParlaMint SAMPLE]</title>
+				
+            
+				<title type="sub" xml:lang="hr">Zapisnici sjednica Hvratskog sabora, mandat 5</title>
+				
+            
+				<title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia, Term 5</title>
+				
+            
+				<meeting n="5" corresp="#HS" ana="#parla.term #HS.9">5. mandat</meeting>
+				
+            
+				<respStmt>
+					
+               
+					<persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+					
+               
+					<resp xml:lang="hr">Preuzimanje i čiščenje digitalnog izvora</resp>
+					
+               
+					<resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
+					
+            
+				</respStmt>
+				
+            
+				<respStmt>
+					
+               
+					<persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+					
+               
+					<resp xml:lang="hr">Kodiranje Parla-CLARIN TEI XML</resp>
+					
+               
+					<resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+					
+            
+				</respStmt>
+				
+            
+				<respStmt>
+					
+               
+					<persName>Peter Rupnik</persName>
+					
+               
+					<resp xml:lang="hr">Kodiranje Parla-CLARIN TEI XML</resp>
+					
+               
+					<resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+					
+            
+				</respStmt>
+				
+            
+				<funder>
+					
+               
+					<orgName xml:lang="hr">Istraživačka infrastrukutra CLARIN</orgName>
+					
+               
+					<orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+					
+            
+				</funder>
+				
+         
+			</titleStmt>
+			
+         
+			<editionStmt>
+				
+            
+				<edition>0.0a</edition>
+				
+         
+			</editionStmt>
+			
+         
+			<extent>
+				
+            
+				<measure unit="speeches" quantity="3941" xml:lang="hr">3.941 govora</measure>
+				
+            
+				<measure unit="speeches" quantity="3941" xml:lang="en">3,941 speeches</measure>
+				
+            
+				<measure unit="words" quantity="631188" xml:lang="hr">631.188 riječi</measure>
+				
+            
+				<measure unit="words" quantity="631188" xml:lang="en">631,188 words</measure>
+				
+         
+			</extent>
+			
+         
+			<publicationStmt>
+				
+            
+				<publisher>
+					
+               
+					<orgName xml:lang="hr">Istraživačka infrastrukutra CLARIN</orgName>
+					
+               
+					<orgName xml:lang="en">CLARIN research infrastructure</orgName>
+					
+               
+					<ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+					
+            
+				</publisher>
+				
+            
+				<idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+				
+            
+				<availability status="free">
+					
+               
+					<licence>http://creativecommons.org/licenses/by/4.0/</licence>
+					
+               
+					<p xml:lang="hr">
+						Ovaj rad je dostupan pod 
+						<ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+						
+               
+					</p>
+					
+               
+					<p xml:lang="en">
+						This work is licensed under the 
+						<ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+						
+               
+					</p>
+					
+            
+				</availability>
+				
+            
+				<date when="2021-06-09">2021-06-09</date>
+				
+         
+			</publicationStmt>
+			
+         
+			<sourceDesc>
+				
+            
+				<bibl>
+					
+               
+					<title type="main" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia</title>
+					
+               
+					<idno type="URI" subtype="business">https://parlametar.hr/</idno>
+					
+               
+					<idno type="URI" subtype="parliament">http://www.sabor.hr/</idno>
+					
+               
+					<date from="2003-12-22" to="2007-10-12">2003-12-22 - 2007-10-12</date>
+					
+            
+				</bibl>
+				
+         
+			</sourceDesc>
+			
+      
+		</fileDesc>
+		
+      
+		<encodingDesc>
+			
+         
+			<projectDesc>
+				
+            
+				<p xml:lang="hr">
+					
+               
+					<ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+					
+            
+				</p>
+				
+            
+				<p xml:lang="en">
+					
+               
+					<ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+					
+            
+				</p>
+				
+         
+			</projectDesc>
+			
+         
+			<tagsDecl>
+				
+            
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					
+               
+					<tagUsage gi="text" occurs="1"/>
+					
+               
+					<tagUsage gi="body" occurs="1"/>
+					
+               
+					<tagUsage gi="div" occurs="1"/>
+					
+               
+					<tagUsage gi="head" occurs="1"/>
+					
+               
+					<tagUsage gi="note" occurs="1"/>
+					
+               
+					<tagUsage gi="u" occurs="3941"/>
+					
+               
+					<tagUsage gi="seg" occurs="17551"/>
+					
+               
+					<tagUsage gi="vocal" occurs="201"/>
+					
+               
+					<tagUsage gi="desc" occurs="349"/>
+					
+               
+					<tagUsage gi="kinesic" occurs="9"/>
+					
+               
+					<tagUsage gi="gap" occurs="139"/>
+					
+            
+				</namespace>
+				
+         
+			</tagsDecl>
+			
+      
+		</encodingDesc>
+		
+      
+		<profileDesc>
+			
+         
+			<settingDesc>
+				
+            
+				<setting>
+					
+               
+					<name type="address">Trg sv. Marka 6</name>
+					
+               
+					<name type="city">Zagreb</name>
+					
+               
+					<name type="country" key="HR">Croatia</name>
+					
+               
+					<date from="2003-12-22" to="2007-10-12" ana="#parla.session"> 2003-12-22 - 2007-10-12</date>
+					
+            
+				</setting>
+				
+         
+			</settingDesc>
+			
+      
+		</profileDesc>
+		
+      
+		<revisionDesc xml:lang="en">
+			
+         
+			<change when="2022-09-30">
+				
+            
+				<name>Peter Rupnik</name>
+				:Compile from source
+			</change>
+			
+      
+		</revisionDesc>
+		
+   
+	</teiHeader>
 	<text>
 		<body>
 			<div>
@@ -9689,312 +9998,3 @@
 					<seg xml:id="seg050000008260">Iz jednostavnog razloga što je gospodo od ovih 7 članova kako je predložio ovdje gospodin Glavaš u ime izbornog, u ime Odbora za izbor i imenovanja od 7 članova 6 su predloženi od strane HDZ-a odnosno od strane parlamentarne većine.</seg>
 					<seg xml:id="seg050000008261">Mislim da valjda nema nikoga u ovoj sabornici tko nije svjestan činjenice da je sastav ovog Povjerenstva pa i sama činjenica da u zakonu piše da predsjednik tog Povjerenstva mora biti iz redova oporbe, govori zapravo o intenciji kod sastavljana članstva toga Povjerenstva.</seg>
 					<seg xml:id="seg050000008262">A ta intencija je da vladajuća većina zapravo ne vlada i ne ima većinu niti predsjednika u tome povjerenstvu.</seg>
-					<seg xml:id="seg050000008263">Tada kada je donošen zakona HDZ je glasovao upravo za tu itenciju.</seg>
-					<seg xml:id="seg050000008264">U svojoj raspravi spominjao upravo tu itenciju da predsjednik toga Povjerenstva bude iz redova oporbe i da ne bude nikakve majorizacije unutar toga Povjerenstva od strane većine.</seg>
-					<seg xml:id="seg050000008265">Da bi naravno to su tada, tada se vjerojatno to zagovaralo iz činjenice da je tada HDZ bio manjina i oporba kada se zakon donosio.</seg>
-					<seg xml:id="seg050000008266">Sada, kada je HDZ većina i vladajući, naprosto se grubo gazi taj princip.</seg>
-					<seg xml:id="seg050000008267">Da bi to potvrdio, ja ću vam reći ovako.</seg>
-					<seg xml:id="seg050000008268">Od 4 člana iz redova zastupnika 3 koja je predložio Odbor za izbor, imenovanja bolje rečeno 7 članova toga Odbora iz redova parlamentarne većine su dakle, 3 člana od 4 od nas zastupnika ovdje predloženi su 2 člana iz redova HDZ-a, 1 član iz reda SDSS-a i 1 član iz reda, članica iz reda SDP-a kao iz redova oporbe.</seg>
-					<seg xml:id="seg050000008269">Dakle prvo je pogažen princip odnosa 2:2. 2 iz redova većine, 2 iz redova oporbe.</seg>
-					<seg xml:id="seg050000008270">Takav princip je bio dogovoren.</seg>
-					<seg xml:id="seg050000008271">Kada smo zatražili kao oporba objašnjenje na samoj sjednici Odbora, tada smo dobili ovakvo objašnjenje da je SDSS predstavnik SDSS-a oporba.</seg>
-					<seg xml:id="seg050000008272">Dakle, činjenica da jedna stranka u ovom Saboru je u utorak kod dogovora o raspodjelu, o raspodjeli mjesta u odborima, pripadnica parlamentarne većine, dakle SDSS pa smo onda odredili omjer od 13:11 u srijedu ta ista stranka postaje pripadnica oporbe po tumačenju gospodina Glavaša.</seg>
-					<seg xml:id="seg050000008273">Dakle, postavili smo pitanje hoćemo li mi gospođe i gospodo kod svakog imenovanja u ovom Saboru ispočetka i nanovno utvrđivati tko pripada parlamentarnoj većini a tko pripada parlamentarnoj manjini?</seg>
-					<seg xml:id="seg050000008274">Hoće li jedan pateisti potpredsjednik Sabora ujutro pripadati većini a popodne pripadati manjini, ovisno o položaju sunca na nebu?</seg>
-					<seg xml:id="seg050000008275">Ili hoće li možda jedna te ista stranka u utorak biti oporba a u srijedu vladajuća ovisno o položaju mjeseca prema suncu?</seg>
-					<seg xml:id="seg050000008276">Ili ne znam po kojem kriteriju.</seg>
-					<seg xml:id="seg050000008277">U utorak smo izabrali gospodina Pupovca za predsjednika Odbora za međuparlamentarnu suradnju kao pripadnika parlamentarne većine na prijedlog HDZ-a.</seg>
-					<seg xml:id="seg050000008278">Ista, u taj isti utorak smo izabrali gospodina Gajicu kao potpredsjednika Odbora za ljudska prava i nacionalne manjine iz redova većine.</seg>
-					<seg xml:id="seg050000008279">Da bi danas u četvrtak birali gospodina Gajicu u izbor, u Povjerenstvo za odlučivanje o sukobu interesa kao pripadnika manjine, odnosno oporbe.</seg>
-					<seg xml:id="seg050000008280">Pa imali to ikakvog smisla?</seg>
-					<seg xml:id="seg050000008281">Mi držimo u Klubu Hrvatske stranke prava da je to nasilje.</seg>
-					<seg xml:id="seg050000008282">Nasilje nad demokracijom, nasilje nad zdravom pameći, nasilje nad Poslovnikom, nasilje nad zakonom, nasilje nad dogovorima, nasilje nad parlamentarnom praksom, da je to izvan domašaja dobrog ukusa, kako se obično kaže a ja ću ovdje reći izvan domašaja lošeg ukusa.</seg>
-					<seg xml:id="seg050000008283">Pa želite li doista nastaviti ovako da od 7 članova 6 budu prijedlog parlamentarne većine onda ću ja doista zamoliti kolege iz oporbenih stranaka a ovdje sam zaboravio još napomenuti da su sve oporbene stranke imale svoj zajednički prijedlog za 2 člana toga Povjerenstva iz redova oporbe.</seg>
-					<seg xml:id="seg050000008284">I da su ta dva člana, nije ni važno koja, imate materijale pred sobom pa pogledajte, i da su sve stranke oporbe doista imale zajednički prijedlog za 3 vanjska člana, napominjem ovdje da ne postoji uopće razrađen Poslovnik kako se i na koji način Odboru za izbor i imenovanja predlažu ugledne i javne osobe, nego su sve tri ugledne javne osobe koje je predložio ovdje dakle, gospodin Glavaš su zapravo prijedlog HDZa.</seg>
-					<seg xml:id="seg050000008285">SVe tri, DAkle profesor Željko Horvatić, dr.</seg>
-					<seg xml:id="seg050000008286">Davor Derenčinović, nota bene njegov asistent, i profesor Josip Kregar.</seg>
-					<seg xml:id="seg050000008287">Sva tri je predložio klub HDZa i sva t risu ovdje u prijedlogu.</seg>
-					<seg xml:id="seg050000008288">Niti jedan od usuglašenog prijedloga oporbe nije ovdje ušao u sastav t oga povjerenstva.</seg>
-					<seg xml:id="seg050000008289">Niti jedna od ta tri od usuglašenog ponavljam prijedloga oporbe svih oporbenih stranaka.</seg>
-					<seg xml:id="seg050000008290">A u ove od članova je gospoine Gajica odnosno SDSS koji je jučer još bio u redovima parlametarne većine kada smo raspravljali i donosili imenovanja u odbore danas postao predstavnik oporbe.</seg>
-					<seg xml:id="seg050000008291">Po tumačenju gospodina Glavaša. ako tamo zamišljate parlamentarni rad, onda doista jao si ga nama.</seg>
-					<seg xml:id="seg050000008292">Jao si ga nama.</seg>
-					<seg xml:id="seg050000008293">Jer pretpostavljam da ćemo kod sljedećeg imenovanja opet utvrđivati tko zapravo pripada među 80 članova parlamentarne većine, a tko među onih 72 parlametarne manjine odnosno oporbe.</seg>
-					<seg xml:id="seg050000008294">U svakom slučaju bilo kako bilo nastavite li i ako doista inzistirate nad ovakvim, nastavkom ovakvog nasilja nad parlamentarnom praksom i nad demokracijom ja ću zamoliti kolege iz SDPa i gospođu MIlanku Opačić da povuče svoju kandidaturu, pa onda gospodo izaberite svih 7 na prijedlog HDZa.</seg>
-					<seg xml:id="seg050000008295">Hvala vam lijepa.</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u711" n="710">
-					<seg xml:id="seg050000008296">Molim vas.</seg>
-					<seg xml:id="seg050000008297">Jeste gospodine Glavaš trebali ja imam ovdje upisano ispravak netočnog navoda.</seg>
-					<seg xml:id="seg050000008298">Dobro.</seg>
-					<seg xml:id="seg050000008299">Imate i pravo ispravak netočnog navoda, onda u sklodu toga i u ime odbora iz njeti.</seg>
-				</u>
-				<u who="#GlavašBranimir" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u712" n="711">
-					<seg xml:id="seg050000008300">U ime Odbora.</seg>
-					<seg xml:id="seg050000008301">Gospodine Rožić, molim.</seg>
-					<seg xml:id="seg050000008302">Za izbor i imenovanja u ime Odbora, da.</seg>
-					<seg xml:id="seg050000008303">I ne obraćam se vama kao gospodinu Rožiću kao što ste vi meni obraćate kao gospodinu Glavašu.</seg>
-					<seg xml:id="seg050000008304">Vi ste za mene član Odbora za izbor i imenovanje i uvaženi saborski zasatupnik.</seg>
-					<seg xml:id="seg050000008305">I nije mi namjera voditi sa vama polemiku.</seg>
-					<seg xml:id="seg050000008306">Ali želim ovom časnom domu odgovoriti i upoznati ih sa činjenicom.</seg>
-					<seg xml:id="seg050000008307">Koje ste vi izokretali kako bi obnanuli javnost.</seg>
-					<seg xml:id="seg050000008308">Samo vam još fale televizijske kamare da ta neistina izađe van.</seg>
-					<seg xml:id="seg050000008309">Zakon.</seg>
-					<seg xml:id="seg050000008310">ON se zove o sprečavanju sukoba interesa u obnašanju javnih dužnosti.</seg>
-					<seg xml:id="seg050000008311">Točno regulira kako se sastavlja ovo povjerenstvo i stavak 3. članka 16. kaže.</seg>
-					<seg xml:id="seg050000008312">Četri člana povjerenstva su iz redova zastupnika Hrvatskog sabora a ostali članovi su ugledni javni djealtnici, s time da dva člana povjerenstva ne mogu biti iz iste političke stranke.</seg>
-					<seg xml:id="seg050000008313">Dakle četri člana iz čćetri stranke.</seg>
-					<seg xml:id="seg050000008314">U ime vladajuće većine relativne ili apsolutne shvatite kako got hoćete, to je vaše pravo, iznjeo sam prijedlog, četri člana po jedan iz četri stranke.</seg>
-					<seg xml:id="seg050000008315">I u ime vladajuće većikne relativne ili apsolutne shvatite kako got hoćete, iznio sam prijedlog, tri vanjska člana.</seg>
-					<seg xml:id="seg050000008316">Na Odboru je glasovano i o vašim prijedlozima, vašim osobnim prijedlozima.</seg>
-					<seg xml:id="seg050000008317">Prijedlozima HNSa koliko se sjećam, dakle ne st oji ono štto kažete da su sve o porbene stranke imale jedinstveno stajalište.</seg>
-					<seg xml:id="seg050000008318">Nije istina, to jednostavno nije istina.</seg>
-					<seg xml:id="seg050000008319">RAzličite stranke iz oporbe su iznosile svoje različite prijedloge.</seg>
-					<seg xml:id="seg050000008320">Ionako kako je to propisano poslovnikom na Odboru se usvajao prijedlog, jedan drugi ili treći, i ovaj prijedlog vladajuće većine relativne ili apsolutne ,uopće nije bitno shvatite kako hoćete je dobio potrebitu većinu da bi odbor mogao donjeti odluku.</seg>
-					<seg xml:id="seg050000008321">I Prema tome gospodine članu Odbora za izbor i imenovanje uvaženi zastupniče Rožiću, nije točno da smo donosili odluke mimo zakonskih odredbi ,nego smo se striktno držali zakonskih odredbi.</seg>
-					<seg xml:id="seg050000008322">Nije točno da smo prekoračili zaknske ovlasti, nego smo se držali okvirima zakonskih i poslovničkih ovlasti koje omgoućavaju rad unutar Odbora.</seg>
-					<seg xml:id="seg050000008323">Nije točno da ste napustili svi sjednicu, iz redova oporbe, na sjednici je ostao predstavnik HNS i HSSa , pa je po pozivu SDPa on naknadno izašao.</seg>
-					<seg xml:id="seg050000008324">Odbor je radio u sastavu od 8 članova od ukupno 13 i donosio odluke apsolutnom većinom ne relativnom.</seg>
-					<seg xml:id="seg050000008325">Apslutnom većinom 7 prema 1. Ništa se drugo nije gazilo, nikakvi principi, a najmanje zakon.</seg>
-					<seg xml:id="seg050000008326">Niste dobili objašnjenje gospodina Glavaša kako ste vi rekli da je SDS oporba, to ja izgovorio nisam.</seg>
-					<seg xml:id="seg050000008327">Ja sam samo izgovorio da Hrvatska demokratska zajednica i SDSS nisu koalicijski partneri, jer nisu potpisali koalicijski sporazum.</seg>
-					<seg xml:id="seg050000008328">Prema tome nisam izjavio da je SDSS oporba to ste vi izjavili, izokrenuli moje riječi isto onako kao što je to večeras hrvatska televizija izokrenula.</seg>
-					<seg xml:id="seg050000008329">Isto onako.</seg>
-					<seg xml:id="seg050000008330">I nije vršeno nikakvo nasilje nad pameću, nije vršeno nikakvo nasilje nad zakonom, nije vršeno nikakvo nasilje nad poslovnikom već je Odbor radio u skladu sa zakonom, u skladu sa zdravim razumom.</seg>
-					<seg xml:id="seg050000008331">Tumačenjem zakona i u skladu sa Poslovnikom.</seg>
-					<seg xml:id="seg050000008332">Hvala lijepa.</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u713" n="712">
-					<seg xml:id="seg050000008333">Hvala.</seg>
-					<seg xml:id="seg050000008334">Ispravak netočnog navoda poštovani zastupnik Miroslav Rožić.</seg>
-					<seg xml:id="seg050000008335">Izvolite kolega.</seg>
-				</u>
-				<u who="#RožićMiroslav" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u714" n="713">
-					<seg xml:id="seg050000008336">Gospodine predsjedniče, gospođe i gospodo uvaženi zastupnic, gospodine predsjedniče Odbora za izbor i imenovanje, uvaženi zastupniče Glavaš.</seg>
-					<seg xml:id="seg050000008337">Nisam nigdje izgovorio da smo mi prekoračili, da je Odbor prekoračio bilo kakve zakonske ovlasti, to nisam izgovorio.</seg>
-					<seg xml:id="seg050000008338">Izgovorio sam da je Odbor prekoračio sve zakonske rokove.</seg>
-					<seg xml:id="seg050000008339">Rokove.</seg>
-					<seg xml:id="seg050000008340">Dalje.</seg>
-					<seg xml:id="seg050000008341">Vi ste sada citirali stavke zakona, zašto niste citirali stavak koji kaže da predsjednik toga Odbora mora biti iz redova oporbe, odnosno da ne može biti iz vladajuće stranke.</seg>
-					<seg xml:id="seg050000008342">To piše u zakonu, vi ste ga odredili.</seg>
-					<seg xml:id="seg050000008343">Odredili ste ga tako što zapravo u vašem prijedlogu ima smao jedan predstavnik oporbe.</seg>
-					<seg xml:id="seg050000008344">Po mome?</seg>
-					<seg xml:id="seg050000008345">Vi ste sada izgovorili da niste rekli da je SDSS oporbena stranka.</seg>
-					<seg xml:id="seg050000008346">A izgovorili ste to upravo iz toga razloga jer sam vam ja rekao bude li prijedlog samo gospođe Milanke Opačić to će značiti da je ona automatski po zakonu predsjednik t oga povjernstva jer je ona jedina predstavnica oporbe.</seg>
-					<seg xml:id="seg050000008347">Na to ste mi vi odgovorili, jer je istina SDSS je također je također oporba.</seg>
-					<seg xml:id="seg050000008348">To je ispraavk netočnog navoda.</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u715" n="714">
-					<seg xml:id="seg050000008349">Hvala lijepa gospodine Rožić.</seg>
-				</u>
-				<u who="#RožićMiroslav" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u716" n="715">
-					<seg xml:id="seg050000008350">Nisam izokrenuo ja, a nije izokrenuo ni HTV-e.</seg>
-					<seg xml:id="seg050000008351">I nismo mi svi ludi po definiciji, a vi zapravo uvijek u pravu.</seg>
-					<seg xml:id="seg050000008352">I nisam rekao nasilje nad bilo kakvim zakonom, nego sam rekao nasilje nad demokracijom i nasilje nad parlamentarnom praksom ...</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u717" n="716">
-					<seg xml:id="seg050000008353">Zahvaljujem.</seg>
-				</u>
-				<u who="#RožićMiroslav" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u718" n="717">
-					<seg xml:id="seg050000008354">Jer ste vi zapravo ovdje rekli sada da ne postoji dogovor između parlamentarnih stranaka.</seg>
-					<seg xml:id="seg050000008355">Rekli ste da ne postoji dogovor o tome da dva člana budu iz redova oporbe ...</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u719" n="718">
-					<seg xml:id="seg050000008356">Zahvaljujem kolega Rožić.</seg>
-				</u>
-				<u who="#RožićMiroslav" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u720" n="719">
-					<seg xml:id="seg050000008357">Dva člana iz redova Vlade.</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u721" n="720">
-					<seg xml:id="seg050000008358">Zahvaljujem kolega Rožić.</seg>
-					<seg xml:id="seg050000008359">Već je višestruko isteklo vrijeme.</seg>
-				</u>
-				<u who="#RožićMiroslav" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u722" n="721">
-					<seg xml:id="seg050000008360">Jer taj dogovor postoji.</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u723" n="722">
-					<seg xml:id="seg050000008361">Kolega Rožić, molim vas.</seg>
-					<seg xml:id="seg050000008362">U ime Kluba zastupnika HNS-a i PGS-a poštovani zastupnik Dragutin Lesar.</seg>
-					<seg xml:id="seg050000008363">Izvolite.</seg>
-				</u>
-				<u who="#LesarDragutin" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u724" n="723">
-					<seg xml:id="seg050000008364">Hvala gospodine predsjedniče, kolegice i kolege.</seg>
-					<seg xml:id="seg050000008365">Naprije napomena.</seg>
-					<seg xml:id="seg050000008366">Nije točno zaista da su sve oporbene stranke dale zajednički jedinstveni prijedlog za redove, iz redova saborskih zastupnika.</seg>
-					<seg xml:id="seg050000008367">Ali je točno da što se tiče vanjskih članova da je bio jedinstveni prijedlog, a to ću kasnije obrazložiti.</seg>
-					<seg xml:id="seg050000008368">Međutim, ono što je meni sada u ovom trenutku daleko bitnije.</seg>
-					<seg xml:id="seg050000008369">Na proširenoj sjednici Sabora održanoj prije dan ili dva mi klubovi dobili smo molbu i upozorenje, požurnicu da što prije damo kandidaturu članova ovih povjerenstava kako bi se na ovom zasjedanju ono moglo izabrati.</seg>
-					<seg xml:id="seg050000008370">I tada je bilo ponovljeno i rečeno - dva kandidata iz redova većine i dva iz manjine.</seg>
-					<seg xml:id="seg050000008371">Dilema broja zastupnika na jednoj i drugoj strani bila je predmet usaglašavanja tri ili četiri dana u kontinuitetu i na kraju dogovoreno i prihvaćeno da je omjer 80:72 i tim sistemom i to na toj sjednici Predsjedništva završene sve rasprave, svi različiti stavovi i taj odnos nitko više nije dovodio u pitanje u bilo kojoj raspodjeli mandata, kandidiranju i glasali smo svi za sve upravo na temelju tog potvrđenog dogovora na proširenoj sjednici Predsjedništva.</seg>
-					<seg xml:id="seg050000008372">Što se tiče vanjskih članova, bilo je direktno pitanje da li i vanjski članovi dolaze u obzir maksimum mogućeg dogovora jer smo tada već imali prijedloge date od strane HDZ-a i bilo je jasno izrečeno da bi bilo čak i dobro da se daju i više prijedloga vanjskih članova.</seg>
-					<seg xml:id="seg050000008373">Na sjednici se nije vodio zapisnik ili se možda vodio, ali ja ga nisam dobio da bi mogao sada ovako ovdje i dokumentom to potvrditi.</seg>
-					<seg xml:id="seg050000008374">Ali ... /ne razumije se/ ... tome tako je.</seg>
-					<seg xml:id="seg050000008375">I zbog toga sam iznenađen da je danas samo u 48 sati poslije odnos parlamentarnoj, dakle ne govorim o vlasti i oporbi, nego o parlamentarnoj većini i parlamentarnoj manjini drugačiji odnos snaga.</seg>
-					<seg xml:id="seg050000008376">To nije dobro jer ako smo jednom to pravilo prihvatili uz napomenu gospodina predsjednika predsjednika da taj odnos vrijedi i da ga moramo poštivati u raspodjeli tih mandata ne i kod političkih odnosa i svega ostaloga.</seg>
-					<seg xml:id="seg050000008377">Međutim, promjena matematike bila je prisutna i među koordinacijom oporbe.</seg>
-					<seg xml:id="seg050000008378">Ja sam danas u novinama pročitao da smo mandate dijelili po čuvenoj formuli gospodina Tomčića.</seg>
-					<seg xml:id="seg050000008379">To mi sada izgleda ovako, ovo je treća formula - ujutro u ovom Parlamentu vrijedi pravila igre Hrvatskog nogometnog saveza, popodne ili u podne UEF-e, a popodne ili navečer FIF-e.</seg>
-					<seg xml:id="seg050000008380">I kako god se držiš pravila nikad nisi siguran da li se nečega dobro držiš.</seg>
-					<seg xml:id="seg050000008381">Mi smo pokušali usaglasiti prijedloge, ali u današnjoj raspodjeli oporbene kvote i tamo je promijenjena formula.</seg>
-					<seg xml:id="seg050000008382">Tamo je danas bila nova matematika.</seg>
-					<seg xml:id="seg050000008383">Tomčić 2, valjda, pretpostavljam.</seg>
-					<seg xml:id="seg050000008384">I zbog toga smo i dali svoj prijedlog i ostali u radu odbora.</seg>
-					<seg xml:id="seg050000008385">I zbog toga što se radi o osjetljivom pitanju kojem očito nije posvećeno bilo dovoljno vremena pokušaj dogovaranja, gospodine predsjedniče upućujemo vam apel i molbu i prijedlog.</seg>
-					<seg xml:id="seg050000008386">Nemojte izglasavati ovo sada.</seg>
-					<seg xml:id="seg050000008387">Učinimo napor da u toku sutrašnjeg dana riješimoo nesporazume i da odluka bude nakon donošenja ne bude predmet javnog natezanja jer nam to građani mogu zamjeriti i to podvest pod nazivnik pokušaja opstrukcije formiranja povjerenstva.</seg>
-					<seg xml:id="seg050000008388">Ja mislim da 12 sati kasnije neće biti greda ako ga utemeljimo, molim vas lijepo.</seg>
-					<seg xml:id="seg050000008389">Hvala.</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u725" n="724">
-					<seg xml:id="seg050000008390">Zahvaljujem.</seg>
-					<seg xml:id="seg050000008391">U ime Kluba zastupnika SDP-a poštovani zastupnik Nenad Stazić.</seg>
-				</u>
-				<u who="#StazićNenad" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u726" n="725">
-					<seg xml:id="seg050000008392">Poštovani gospodine predsjedniče, kolegice i kolege.</seg>
-					<seg xml:id="seg050000008393">Tko je parlamentarna većina i tko je parlamentarna manjina?</seg>
-					<seg xml:id="seg050000008394">To je ključno pitanje kod ovog imenovanja.</seg>
-					<seg xml:id="seg050000008395">Još jutros kada smo birali gospođu Đurđu Adlešić za potpredsjednicu Doma, gospodin Luka Bebić koji je vodio sjednicu rekao je da je taj prijedlog u ime parlamentarne većine i nabrajajući sve stranke parlamentarne većine nabrojao i SDSS.</seg>
-					<seg xml:id="seg050000008396">Do večeras SDSS izgleda promijenio je svoju poziciju što se tiče parlamentarne većine, odnosno parlamentarne manjine.</seg>
-					<seg xml:id="seg050000008397">Nije to istina.</seg>
-					<seg xml:id="seg050000008398">Nije se SDSS preselio iz većine u manjinu, nego to HDZ-e tako tumači iz posve jasnih razloga.</seg>
-					<seg xml:id="seg050000008399">Jer mu tako odgovara, a dokazat ću i zašto mu odgovara.</seg>
-					<seg xml:id="seg050000008400">Samim time što se ova rasprava vodi u 9 sati bez prisustva kamera, bez mogućnosti da javnost u izravnom prijenosu gleda što se ovdje događa HDZ-e pokazuje želju, namjeru i ostvaruje svoju namjeru da ovaj, ovu temu skine ili odradi bez očiju javnosti.</seg>
-					<seg xml:id="seg050000008401">Ja vas uvjeravam da vam to neće proći.</seg>
-					<seg xml:id="seg050000008402">Zainteresirat ćemo hrvatsku javnost.</seg>
-					<seg xml:id="seg050000008403">Zainteresirat ćemo novinare jer je ovo Povjerenstvo neobično važno.</seg>
-					<seg xml:id="seg050000008404">Pada pozlata, pada šminka sa lica HDZ-a.</seg>
-					<seg xml:id="seg050000008405">Svi dogovori, sva uvjeravanja da će HDZ-e igrati fer, da je to stranka koja se promijenila i koja se više neće ponašati na način na koji se ponašala 10 godina ovim prijedlogom, ovakvim načinom rada pada u vodu.</seg>
-					<seg xml:id="seg050000008406">Mi opet imamo posla sa istim HDZ-om.</seg>
-					<seg xml:id="seg050000008407">Rasprava se vodi ...</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u727" n="726">
-					<seg xml:id="seg050000008408">... /ne razumije se/ ...</seg>
-					<seg xml:id="seg050000008409">Stazić.</seg>
-					<seg xml:id="seg050000008410">Kolega Stazić,...</seg>
-				</u>
-				<u who="#StazićNenad" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u728" n="727">
-					<seg xml:id="seg050000008411">Meni je posve jasno da vi protestirate jer slušate istinu o sebi.</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u729" n="728">
-					<seg xml:id="seg050000008412">Molim vas mir u sabornici.</seg>
-					<seg xml:id="seg050000008413">Kolega Stazić, ja vas molim da, ovdje se raspravlja.</seg>
-				</u>
-				<u who="#StazićNenad" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u730" n="729">
-					<seg xml:id="seg050000008414">Raspravlja se, da.</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u731" n="730">
-					<seg xml:id="seg050000008415">Ali se ne odmah presuđuje u raspravi.</seg>
-				</u>
-				<u who="#StazićNenad" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u732" n="731">
-					<seg xml:id="seg050000008416">Raspravlja se o postupku HDZ-a u imenovanju ovoga prevažnog Povjerenstva, o tome je riječ.</seg>
-					<seg xml:id="seg050000008417">Gospodine Šeks, o tome je riječ, o tome što je danas napravljeno na Odboru za izbor i imenovanja, o tome kako prije podne SDSS svrstavate u parlamentarnu većinu, a u večer u 9 sati u parlamentarnu manjinu.</seg>
-					<seg xml:id="seg050000008418">Zašto?</seg>
-					<seg xml:id="seg050000008419">Da biste tu parlamentarnu manjinu izigrali, da biste svoje ljude postavili u ovo prevažno Povjerenstvo.</seg>
-					<seg xml:id="seg050000008420">Samo zbog toga.</seg>
-					<seg xml:id="seg050000008421">Važno je ovo Povjerenstvo.</seg>
-					<seg xml:id="seg050000008422">Ono će kontrolirati ponašanje dužnosnika.</seg>
-					<seg xml:id="seg050000008423">Ono će kontrolirati ponašanje HDZ-ovih ministara.</seg>
-					<seg xml:id="seg050000008424">I njegova zadaća je očito sa ovim omjerom u kojem će po HDZ-ovom prijedlogu biti 6 članova od 7 u tom povjerenstvu, a iz oporbe samo jedan.</seg>
-					<seg xml:id="seg050000008425">HDZ će imati potpunu kontrolu nad tim povjerenstvom, a ta kontrola mu je potrebna.</seg>
-					<seg xml:id="seg050000008426">Jer zašto ste se tako uprli da imate 6 od 7 u tom povjerenstvu po svom prijedlogu.</seg>
-					<seg xml:id="seg050000008427">Očito zato što želite biti u sukobu interesa.</seg>
-					<seg xml:id="seg050000008428">A ne samo to, vi već jeste u sukobu interes i ja ću vam to dokazati.</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u733" n="732">
-					<seg xml:id="seg050000008429">Kolega Stazić ja vas uistinu molim da ne optužujete i da ne insinuirate unaprijed bilo kojoj stranci, ni HDZ-u ni bilo kojoj stranci da unaprijed optužujete da se sprema na nešto nezakonito i amoralno.</seg>
-				</u>
-				<u who="#StazićNenad" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u734" n="733">
-					<seg xml:id="seg050000008430">Članak 9. Zakona o saborskim zastupnicima kaže, i dužnosnicima, državnim dužnosnicima kaže da ne smiju primati nikakvu drugu plaću ili naknadu.</seg>
-					<seg xml:id="seg050000008431">Ministar Hebrang u Kliničkoj bolnici Merkur je pročelnik Klinike za radiologiju i prima drugu plaću i naknadu.</seg>
-					<seg xml:id="seg050000008432">On je u sukobu interesa …</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u735" n="734">
-					<seg xml:id="seg050000008433">Ovo nema veze sa ovom točkom.</seg>
-				</u>
-				<u who="#StazićNenad" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u736" n="735">
-					<seg xml:id="seg050000008434">Ja vam dokazujem da ste u sukobu interesa i da zato hoćete imenovati 6 od 7 članova u to povjerenstvo koje će onda utvrditi da Hebrang nije u sukobu interesa.</seg>
-					<seg xml:id="seg050000008435">Članak 10. toga zakona kaže da, naime 24. siječnja pojavio se oglas u “Večernjem listu” za privadnu radiološku ambulantnu polikliniku …</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u737" n="736">
-					<seg xml:id="seg050000008436">Kolega molim vas, zaključno vas upozoravam da ne govorite o činjenicama koje ne znače za ovu raspavu ništa.</seg>
-				</u>
-				<u who="#StazićNenad" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u738" n="737">
-					<seg xml:id="seg050000008437">Znače jako puno, jer govorimo o povjerenstvu sukoba …</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u739" n="738">
-					<seg xml:id="seg050000008438">To su neprovjerene, to su stvari i mi svi jako dobro znamo šta se objavilo u dnevnom tisku, ali da ne prejudicirate i ne špekulirate o mogućem sastavu, djelokrugu i radu toga povjerenstva i da unaprijed prejudicirate njegove odluke i namjeru i nakanu sa kojim ciljem se ovakav personalni sastav povjerenstva predlaže sa optužbom, unaprijed optužbom da će ovo povjerenstvo štititi već unaprijed utvrđeni sukob interesa.</seg>
-					<seg xml:id="seg050000008439">Ja vas zadnji puta upozoravam da molim vas da se držite toga.</seg>
-				</u>
-				<u who="#StazićNenad" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u740" n="739">
-					<seg xml:id="seg050000008440">Gospodine predsjedniče Sabora ja vam sada predajem fotokopiju oglasa koji je objavljen 24. siječnja.</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u741" n="740">
-					<seg xml:id="seg050000008441">Izgleda da se mi ne razumijemo gospodine Staziću.</seg>
-				</u>
-				<u who="#StazićNenad" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u742" n="741">
-					<seg xml:id="seg050000008442">Mi se razumijemo, jer vi meni kažete da ja insinuiram, a ja vam nudim dokaz.</seg>
-					<seg xml:id="seg050000008443">Prema tome ja ne insinuiram, ja vam nudim dokaz.</seg>
-					<seg xml:id="seg050000008444">Izvolite sa imenom dr.</seg>
-					<seg xml:id="seg050000008445">Hebranga na privatnom oglasu …</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u743" n="742">
-					<seg xml:id="seg050000008446">Hvala lijepa gospodine Stazić.</seg>
-					<seg xml:id="seg050000008447">Ja vas samo molim još jednu rečenicu, izvolite završiti, ovo nije tema o kojoj govorite.</seg>
-				</u>
-				<u who="#StazićNenad" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u744" n="743">
-					<seg xml:id="seg050000008448">To je tema.</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u745" n="744">
-					<seg xml:id="seg050000008449">Vi govorite, vi optužujete, vi sudite, vi insinuirate.</seg>
-					<seg xml:id="seg050000008450">Izvolite završiti molim vas.</seg>
-				</u>
-				<u who="#StazićNenad" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u746" n="745">
-					<seg xml:id="seg050000008451">Tema je povjerenstvo, tema je ove rasprave imenovanje članova povjerenstva koje treba ispitati da li su dužnosnici u sukobu interesa.</seg>
-					<seg xml:id="seg050000008452">Neobično je važno da to povjerenstvo bude sastavljeno po slovu zakona i da ona bude kvalificirana, da objektivno potpuno nepristrano spram bilo koga propituje da li je neki dužnosnik u sukobu interesa ili ne.</seg>
-					<seg xml:id="seg050000008453">Zbog toga i Zakon o sprječavanju sukoba interesa i kaže da određuje kakav će biti sastav toga povjerenstva.</seg>
-					<seg xml:id="seg050000008454">O svemu što se danas dogodilo na Odboru za izbor i imenovanja postaje posve očito da HDZ ne želi ispoštovati to slovo zakona, da ne želi dopustiti oporbi da ima dovoljan broj članova u tom povjerenstvu te da želi zadržati omjer 6:1.</seg>
-					<seg xml:id="seg050000008455">To ponavljam poštovani predsjedniče Sabora, nije slučajno.</seg>
-					<seg xml:id="seg050000008456">To ni malo nije slučajno.</seg>
-					<seg xml:id="seg050000008457">Trebao bi čovjek biti naivan pa da povjeruje da se takve stvari događaju slučajno.</seg>
-					<seg xml:id="seg050000008458">Išli ste tako daleko da jednu stranku prije podne proglašavate parlamentarnom većinom, a poslije podne parlamentarnom manjinom.</seg>
-					<seg xml:id="seg050000008459">Dakle išli ste se do te mjere blamirati pred javnošću samo zbog toga da bi sada dobili veliku većinu u ovome povjerenstvu.</seg>
-					<seg xml:id="seg050000008460">Na to nećemo pristati.</seg>
-					<seg xml:id="seg050000008461">I ja vam dokazujem da imamo razloga već danas da vodimo računa tko će u tom povjerenstvu biti, jer će to povjerenstvo sutra morati čitati ovaj oglas objavljen u “Večernjem listu” o ministru, s njegovim imenom i odlučivati da li se u trenutku kada je taj oglas objavljen sa imenom ministra Hebranga za privatnu polikliniku on nalazi u sukobu interesa ili ne, jer on …</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u747" n="746">
-					<seg xml:id="seg050000008462">Hvala lijepa.</seg>
-					<seg xml:id="seg050000008463">Završavam raspravu.</seg>
-					<seg xml:id="seg050000008464">Hvala lijepa.</seg>
-					<seg xml:id="seg050000008465">Nakon višekratnog upozorenja ste ulazili u prejudiciranje i već buduću odluku budućega povjerenstva …</seg>
-				</u>
-				<u who="#StazićNenad" ana="#regular" xml:id="ParlaMint-HR_T5.S3.u748" n="747">
-					<seg xml:id="seg050000008466">Ona je posve izvjesna.</seg>
-					<seg xml:id="seg050000008467">S ovim našim sastavom je potpuno izvjesna ta odluka.</seg>
-				</u>
-				<u who="#ŠeksVladimir" ana="#chair" xml:id="ParlaMint-HR_T5.S3.u749" n="748">
-					<seg xml:id="seg050000008468">Hvala lijepa gospodine Stazić.</seg>
-					<seg xml:id="seg050000008469">Hvala lijepa.</seg>
-					<seg xml:id="seg050000008470">Dame i gospodo na sjednici 26. siječnja održanoj, proširenoga Predsjedništva sa predsjednicima klubova zastupnika zaključeno je sljedeće.</seg>
-					<seg xml:id="seg050000008471">Ovo što se odnosi na ovo, citiram: “Na temelju članka 37. stavak 2. Poslovnika Hrvatskog sabora u okviru rasprave o pitanjima važnima za rad Sabora usuglasili su se svi predsjednici klubova” mislim da jedino nije bio predsjednik Hrvatske stranke umirovljenika, “usuglasili su se svi da se predsjednička i potpredsjednička mjesta u radnim tijelima Hrvatskoga sabora kao i mjesta u izaslanstvima Hrvatskoga sabora raspodijele i to na onaj način kako je to sprovedeno prilikom glasovanja oko radnih tijela Sabora i izaslanstava predsjednika Sabora u pogledu predsjedničkih i potpredsjedničkih mjesta u svim preostalim, osim ona četiri odbora, i u izaslanstvima koje bira Hrvatski sabor.</seg>
-					<seg xml:id="seg050000008472">U tome dogovoru nema niti jedne jedine riječi oko izbora i imenovanja povjerenstva prema Zakonu o sprječavanju sukoba interesa.</seg>
-					<seg xml:id="seg050000008473">Taj zapisnik su dobili svi predsjednici klubova tako da ne stoji ta tvrdnja, a ja sam dužan dati to objašnjenje jer sam vodio tu sjednicu proširenoga Predsjedništva.</seg>
-					<seg xml:id="seg050000008474">Drugo, već na konstituirajućoj sjednici sam zbog toga što Hrvatski sabor nakon što je u listopadu prošle godine donio Zakon o sprječavanju sukoba interesa i nije i radi raspisivanja izbora raspuštanja Sabora izabrao povjerenstvo za sprječavanje sukoba interesa i poduzeo sve one druge radnje koje su bile potrebne da to povjerenstvo profunkcionira, poduzeo sve potrebne korake da se postigne politički dogovori da se ovo povjerenstvo osnuje i da funkcionira.</seg>
-					<seg xml:id="seg050000008475">Zatražio sam i od predsjednika klubova i od predsjednika Odbora za izbor i imenovanja, pa i predsjednik Odbora za izbor i imenovanju uputio žurni poziv svim klubovima da dostave svoje prijedloge za imenovanje u to povjerenstvo.</seg>
-					<seg xml:id="seg050000008476">U hrvatskoj javnosti mnoge nevladine udruge sa pravom postavljaju pitanje kako to da će državni dužnosnici, a među njima i zastupnici u Hrvatskom saboru primiti plaće, a ne smiju primiti plaće ako se ovaj zakon i ovo povjerenstvo ne realizira u svojoj cjelovitosti i u svojoj potpunosti.</seg>
-					<seg xml:id="seg050000008477">Zakon je vrlo precizan i jasan.</seg>
-					<seg xml:id="seg050000008478">Članove povjerenstva imenuje Hrvatski sabor na prijedlog Odbora za izbor i imenovanja i upravne poslove Hrvatskog sabora.</seg>
-					<seg xml:id="seg050000008479">Odbor za izbor i imenovanja je predložio određeni prijedlog.</seg>
-					<seg xml:id="seg050000008480">Drugo, 4 člana povjerenstva se biraju iz redova zastupnika Hrvatskog sabora s time da 2 člana povjerenstva ne mogu biti iz iste političke stranke.</seg>
-					<seg xml:id="seg050000008481">U radnim tijelima Sabora u Poslovniku stoji odredba da sastav radnih tijela Sabora u pravilu odgovara stranačkom sazivu Sabora, stranačkom sastavu Sabora.</seg>
-					<seg xml:id="seg050000008482">Ovo je lex specialis, ovo je Zakon o sprječavanju sukoba interesa u obnašanju javnih dužnosti i on ne govori o tome da stranački sastav ovoga povjerenstva treba odgovarati u pravilu stranačkom sastavu u Hrvatskom saboru nego jedino o tome da su 4 člana zastupnici u Hrvatskom saboru, s time da ne može biti, ne mogu biti dvojca ili dvije iz iste političke stranke, a da predsjednik povjerenstva ne smije biti član stranke koja obnaša vlast.</seg>
-					<seg xml:id="seg050000008483">Povjerenstvo je poslalo ove, ovaj svoj prijedlog.</seg>
-					<seg xml:id="seg050000008484">On je raspravljen.</seg>
-					<seg xml:id="seg050000008485">U pripremama ovoga povjerenstva, sastava, ja sam se konzultirao primjerice u pogledu člana povjerenstva sa i predsjednikom Kluba, zapravo, nije bio i u to vrijeme potpredsjednik, ali sa gospodinom Arlovićem i sa gospodinom Ivicom Račanom gdje smo raspravili da u pogledu da, daklem, iz SDP-a dođe formalni prijedlog za profesora Josipa Kregara.</seg>
-					<seg xml:id="seg050000008486">Predložili smo ga, također ga je predložio i Klub SDP-a.</seg>
-					<seg xml:id="seg050000008487">I Klub HDZ-a, pardon.</seg>
-					<seg xml:id="seg050000008488">I on ga je predložio.</seg>
-					<seg xml:id="seg050000008489">Da li su ispunjeni uvjeti iz zakona u pogledu sastava ovoga povjerenstva?</seg>
-					<seg xml:id="seg050000008490">Niti jedan član predloženoga povjerenstva nije iz iste, dvojica nisu iz iste političke stranke.</seg>
-					<seg xml:id="seg050000008491">Taj uvjet je ispunjen.</seg>
-					<seg xml:id="seg050000008492">Jel ispunjen uvjet da su trojica ugledni javni djelatnici?</seg>
-					<seg xml:id="seg050000008493">Jeste.</seg>
