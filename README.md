@@ -60,9 +60,8 @@ Issues found:
 <seg xml:id="seg050000000167">Božo Biškupić, 19.</seg>
 ```
 * Is this top-level TEI attribute correct?
-```
-TEI.set("xml:id", f"ParlaMint-HR_T{file_index:02}")
-TEI.set("ana", "#parla.term #reference")
+```xml
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hr" xml:id="ParlaMint-HR_T05" ana="#parla.term #reference">
 ```
 
 * TEI header has to be constructed in concert with others. Too much stuff I'd have to make up and then correct.
