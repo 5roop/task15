@@ -65,3 +65,9 @@ Issues found:
 ```
 
 * TEI header has to be constructed in concert with others. Too much stuff I'd have to make up and then correct.
+
+
+# Addendum 2022-10-07T13:45:08
+
+I implemented occurence counter in TEIheader. For the extent measures I chose that speeches are the same as instances in the data before sentence splitting.
+
