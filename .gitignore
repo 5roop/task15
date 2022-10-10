@@ -124,3 +124,7 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+
+01_merged_data
+ParlaMint-HR_05.xml
