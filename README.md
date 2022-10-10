@@ -15,6 +15,11 @@ For posterity: so far we have seen markers:
 * `(Pljesak.)`
 * `- Izvođenje himne -Lijepa naša domovino - `
 * ` - Minuta šutnje - -`(sic)
+* `/Pljesak./`
+* `(Pljesak!)`
+* `(ne razumije se)`
+* `(govornik se naknadno uključio, ne čuje se)`
+
 
 
 
