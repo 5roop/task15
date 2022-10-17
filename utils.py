@@ -115,7 +115,6 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path], fi
     from xml.dom import minidom
     from xml.etree.ElementTree import XML, Element, SubElement, tostring
     merged = pd.read_pickle(pickled_file)
-    
     def get_who_field(row) -> str:
         try:
             lastname = "".join(row["lastname"].split())
@@ -130,6 +129,7 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path], fi
                 return f"#{lastname}{firstname}"
             except:
                 print("Getting errors for ", row["Speaker_name"], row["lastname"], row["firstname"])
+                return f"#ErrorError:{row['Speaker_name']=},{row['lastname']=},{row['firstname']=}"
                 
 
     def get_ana_field(row) -> str:
@@ -153,9 +153,9 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path], fi
         <titleStmt>
             <title type="main" xml:lang="hr">Hrvatski parlamentarni korpus ParlaMint-HR, Mandat {file_index} [ParlaMint SAMPLE]</title>
             <title type="main" xml:lang="en">Croatian parliamentary corpus ParlaMint-HR, Term {file_index} [ParlaMint SAMPLE]</title>
-            <title type="sub" xml:lang="hr">Zapisnici sjednica Hvratskog sabora, mandat {file_index}</title>
+            <title type="sub" xml:lang="hr">Zapisnici sjednica Hrvatskog sabora, mandat {file_index}</title>
             <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia, Term {file_index}</title>
-            <meeting n="{file_index}" corresp="#HS" ana="#parla.term #HS.9">{file_index}. mandat</meeting>
+            <meeting n="{file_index}" corresp="#HS" ana="#parla.term #HS.{file_index}">{file_index}. mandat</meeting>
             <respStmt>
             <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
             <resp xml:lang="hr">Preuzimanje i čiščenje digitalnog izvora</resp>
@@ -247,7 +247,7 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path], fi
     </profileDesc>
     <revisionDesc xml:lang="en">
         <change when="{today_isostr}">
-            <name>Peter Rupnik</name>:Compile from source</change>
+            <name>Peter Rupnik</name>Compile from source</change>
     </revisionDesc>
 </teiHeader>
     """

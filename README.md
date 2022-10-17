@@ -76,3 +76,8 @@ Issues found:
 
 I implemented occurence counter in TEIheader. For the extent measures I chose that speeches are the same as instances in the data before sentence splitting.
 
+
+
+# Addendum 2022-10-13T14:21:13
+
+Re: main files. I can't seem to open the main xml file with any parser. The problem with the ones that work at least somewhat is that the attributes get prepended with `ns:0`, making it unusable. I shall have to resort to template strings.
