@@ -85,3 +85,25 @@ Re: main files. I can't seem to open the main xml file with any parser. The prob
 
 TODO:
 Fix affiliations!
+
+# Addendum 2022-10-21T09:36:42
+
+I'm getting errors like
+
+```
+ERROR ParlaMint-HR_T10: ERROR: Can't find local id for u/@who="#PavličekMarijan"
+ERROR ParlaMint-HR_T10: ERROR: Can't find local id for u/@who="#BenčićSandra"
+ERROR ParlaMint-HR_T10: ERROR: Can't find local id for u/@who="#PrimoracMarko"
+```
+
+but all those names do not appear in the metadata at all.
+
+Is `Adam, Jene` written correctly?
+
+`party.HSu` is super close to `party.HSU` (stranka umirovljenika). This will have to be changed.
+
+# Meeting notes 2022-10-21T10:49:59
+
+* Add missing parties to parties table. See wiki articles in skype chat.
+* Fix references
+* Run contrubuting.md validation as described on github.

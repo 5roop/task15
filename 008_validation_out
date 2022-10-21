@@ -1,0 +1,1092 @@
+peter@peter-lenovo[3:58:06]:~$ ssh newtantra 'cd /home/rupnik/parlamint/ParlaMint; make validate-parlamint-HR'
+Scripts/validate-parlamint.pl Schema 'Data/ParlaMint-HR'
+INFO: Validating directory /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR
+INFO: Validating TEI root /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml
+INFO: XML validation for ParlaMint-HR.xml
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml:100:56: error: value of attribute "occurs" is invalid; must be an integer
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml:106:56: error: value of attribute "occurs" is invalid; must be an integer
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml:472:75: error: value of attribute "to" is invalid; must be an ISO year and month, must be an ISO date, must be an ISO date and time or must be a year
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml:570:81: error: value of attribute "xml:id" is invalid; must be an XML name without colons
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml:677:42: error: value of attribute "name" is invalid; must be equal to "coalition", "opposition", "renaming", "representing" or "successor"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml:688:42: error: value of attribute "name" is invalid; must be equal to "coalition", "opposition", "renaming", "representing" or "successor"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml:699:42: error: value of attribute "name" is invalid; must be equal to "coalition", "opposition", "renaming", "representing" or "successor"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml:710:42: error: value of attribute "name" is invalid; must be equal to "coalition", "opposition", "renaming", "representing" or "successor"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml:721:42: error: value of attribute "name" is invalid; must be equal to "coalition", "opposition", "renaming", "representing" or "successor"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml:726:43: error: value of attribute "to" is invalid; must be an ISO year and month, must be an ISO date, must be an ISO date and time or must be a year
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml:732:43: error: value of attribute "name" is invalid; must be equal to "coalition", "opposition", "renaming", "representing" or "successor"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml:732:43: error: value of attribute "to" is invalid; must be an ISO year and month, must be an ISO date, must be an ISO date and time or must be a year
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml:4817:60: error: ID "LovrićMerzelMarina" has already been defined
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml:4213:60: error: first occurrence of ID "LovrićMerzelMarina"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml:5289:57: error: ID "VrbatGrgićTanja" has already been defined
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml:4031:57: error: first occurrence of ID "VrbatGrgićTanja"
+INFO: Content validaton for ParlaMint-HR.xml
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.NEZAVISNI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDSSB
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDSSB
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDSSB
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDSSB
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDSSB
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSU
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSU
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSU
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSU
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSU
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.IDS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.NEZAVISNI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.NEZAVISNI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.NEZAVISNI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.NEZAVISNI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.NEZAVISNI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDSSB
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDSSB
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.DC
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDAH
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.REFORMISTI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDSSB
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDSSB
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.IDS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.IDS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDSSB
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDSSB
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDSSB
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.NEZAVISNI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDSSB
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.NEZAVISNI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.NEZAVISNI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSU
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.NEZAVISNI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.NEZAVISNI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.NEZAVISNI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.NEZAVISNI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.REFORMISTI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.IDS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.IDS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HRVATSKI_LABURISTI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.MOST
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.MOST
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.MOST
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.IDS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.IDS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSLS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.MOST
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSLS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.MOST
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.NEZAVISNI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.NEZAVISNI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.PH
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.PH
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.GLAS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.MOST
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.MOST
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.MOST
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.MOST
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDP
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.MOST
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.MOST
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.MOST
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.MOST
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HNS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.MOST
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.NEZAVISNI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.SDSS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.NEZAVISNI
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+ERROR ParlaMint-HR: Duplicate party affiliation for #party.HDZ
+ERROR ParlaMint-HR: Duplicate party affiliation for #HS
+INFO: particDesc content validaton for ParlaMint-HR.xml
+INFO[10] ParlaMint-HR: Total number of affiliations with government.HR: 0
+ERROR[10] ParlaMint-HR: government-role organisation without affiliation: #government.HR
+INFO[10] ParlaMint-HR: Total number of affiliations with HS: 1141
+ERROR[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with HS: 1141 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.DC: 4
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.DC: 4 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HDSSB: 23
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.HDSSB: 23 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HDZ: 458
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.HDZ: 458 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HNS: 56
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.HNS: 56 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HSLS: 9
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.HSLS: 9 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HSP: 8
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.HSP: 8 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HSS: 35
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.HSS: 35 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HSU: 14
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.HSU: 14 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.IDS: 19
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.IDS: 19 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.LIBRA: 0
+WARN[10] ParlaMint-HR: parliamentaryGroup-role organisation without affiliation: #party.LIBRA
+INFO[10] ParlaMint-HR: Total number of affiliations with party.LS: 0
+WARN[10] ParlaMint-HR: parliamentaryGroup-role organisation without affiliation: #party.LS
+INFO[10] ParlaMint-HR: Total number of affiliations with party.MDS: 1
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.MDS: 1 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.PGS: 1
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.PGS: 1 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.SBHS: 1
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.SBHS: 1 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.SDAH: 2
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.SDAH: 2 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.SDP: 287
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.SDP: 287 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.SDSS: 22
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.SDSS: 22 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HRVATSKI_LABURISTI: 6
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.HRVATSKI_LABURISTI: 6 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HSD: 1
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.HSD: 1 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.BDSH: 1
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.BDSH: 1 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HGS: 2
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.HGS: 2 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HSP_AS: 5
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.HSP_AS: 5 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.ID: 1
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.ID: 1 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.NAPRIJED_HRVATSKA!: 1
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.NAPRIJED_HRVATSKA!: 1 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.NOVI_VAL: 1
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.NOVI_VAL: 1 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.ORAH: 3
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.ORAH: 3 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.REFORMISTI: 7
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.REFORMISTI: 7 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.BM365: 1
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.BM365: 1 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.BUZ: 1
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.BUZ: 1 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HDS: 4
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.HDS: 4 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HRAST: 2
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.HRAST: 2 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HRID: 2
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.HRID: 2 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.MOST: 37
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.MOST: 37 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.NLSP: 1
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.NLSP: 1 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.PH: 5
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.PH: 5 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.ŽIVI_ZID: 4
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.ŽIVI_ZID: 4 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.GLAS: 5
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.GLAS: 5 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.SMSH: 1
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.SMSH: 1 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.SNAGA: 1
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.SNAGA: 1 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.DP: 11
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.DP: 11 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.ZK: 5
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.ZK: 5 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.SIP: 1
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.SIP: 1 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.PAMETNO: 1
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.PAMETNO: 1 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.FOKUS: 2
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.FOKUS: 2 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.NEZAVISNI: 87
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.NEZAVISNI: 87 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HS: 1
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.HS: 1 (100.00%)
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HKS: 1
+INFO[20] ParlaMint-HR: Total number of whole-corpus-period-covering affiliations with party.HKS: 1 (100.00%)
+Error at char 90 in expression in xsl:value-of/@select on line 598 column 224 of validate-parlamint-particDesc.xsl:
+  FORG0001  Invalid dateTime value "ongoing" (Non-numeric year component)
+at function mk:get_org_to on line 595 of validate-parlamint-particDesc.xsl:
+     invoked by function call at file:/home/rupnik/parlamint/ParlaMint/Scripts/validate-parlamint-particDesc.xsl#39
+  In template rule with match="element(Q{http://www.tei-c.org/ns/1.0}affiliation)" on line 13 of validate-parlamint-particDesc.xsl
+     invoked by built-in template rule (text-only)
+  In template rule with match="text()" on line 429 of validate-parlamint-particDesc.xsl
+     invoked by built-in template rule (text-only)
+  In template rule with match="text()" on line 429 of validate-parlamint-particDesc.xsl
+     invoked by xsl:apply-templates at file:/home/rupnik/parlamint/ParlaMint/Scripts/validate-parlamint-particDesc.xsl#316
+  In template rule with match="element(Q{http://www.tei-c.org/ns/1.0}particDesc)" on line 315 of validate-parlamint-particDesc.xsl
+     invoked by built-in template rule (text-only)
+  In template rule with match="text()" on line 429 of validate-parlamint-particDesc.xsl
+     invoked by built-in template rule (text-only)
+  In template rule with match="text()" on line 429 of validate-parlamint-particDesc.xsl
+     invoked by built-in template rule (text-only)
+     invoked by built-in template rule (text-only)
+Invalid dateTime value "ongoing" (Non-numeric year component)
+INFO: Link checking for ParlaMint-HR.xml
+ERROR ParlaMint-HR: ERROR: Can't find local id for relation/@mutual="#party.HDZ #party.HNS #party.BM_365_NZ #party.SDSS #party.HDS_HSLS_HDSSB"
+ERROR ParlaMint-HR: ERROR: Can't find local id for relation/@mutual="#party.HDZ #party.HNS #party.BM_365_NZ #party.SDSS #party.HDS_HSLS_HDSSB"
+ERROR ParlaMint-HR: ERROR: Can't find local id for relation/@active="#party.GLAS #party.HS #party.HSS_Demokrati #party.HSU_SNAGA_NZ_NP #party.IDS_PGS_RI #party.Most #party.NLM #party.Nezavisni #party.SDP #party.Živi_zid_PH #party.Živi_zid_SNAGA"
+ERROR ParlaMint-HR: ERROR: Can't find local id for relation/@active="#party.GLAS #party.HS #party.HSS_Demokrati #party.HSU_SNAGA_NZ_NP #party.IDS_PGS_RI #party.Most #party.NLM #party.Nezavisni #party.SDP #party.Živi_zid_PH #party.Živi_zid_SNAGA"
+ERROR ParlaMint-HR: ERROR: Can't find local id for relation/@active="#party.GLAS #party.HS #party.HSS_Demokrati #party.HSU_SNAGA_NZ_NP #party.IDS_PGS_RI #party.Most #party.NLM #party.Nezavisni #party.SDP #party.Živi_zid_PH #party.Živi_zid_SNAGA"
+ERROR ParlaMint-HR: ERROR: Can't find local id for relation/@active="#party.GLAS #party.HS #party.HSS_Demokrati #party.HSU_SNAGA_NZ_NP #party.IDS_PGS_RI #party.Most #party.NLM #party.Nezavisni #party.SDP #party.Živi_zid_PH #party.Živi_zid_SNAGA"
+ERROR ParlaMint-HR: ERROR: Can't find local id for relation/@active="#party.GLAS #party.HS #party.HSS_Demokrati #party.HSU_SNAGA_NZ_NP #party.IDS_PGS_RI #party.Most #party.NLM #party.Nezavisni #party.SDP #party.Živi_zid_PH #party.Živi_zid_SNAGA"
+ERROR ParlaMint-HR: ERROR: Can't find local id for relation/@active="#party.GLAS #party.HS #party.HSS_Demokrati #party.HSU_SNAGA_NZ_NP #party.IDS_PGS_RI #party.Most #party.NLM #party.Nezavisni #party.SDP #party.Živi_zid_PH #party.Živi_zid_SNAGA"
+ERROR ParlaMint-HR: ERROR: Can't find local id for relation/@active="#party.GLAS #party.HS #party.HSS_Demokrati #party.HSU_SNAGA_NZ_NP #party.IDS_PGS_RI #party.Most #party.NLM #party.Nezavisni #party.SDP #party.Živi_zid_PH #party.Živi_zid_SNAGA"
+ERROR ParlaMint-HR: ERROR: Can't find local id for relation/@active="#party.GLAS #party.HS #party.HSS_Demokrati #party.HSU_SNAGA_NZ_NP #party.IDS_PGS_RI #party.Most #party.NLM #party.Nezavisni #party.SDP #party.Živi_zid_PH #party.Živi_zid_SNAGA"
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml
+INFO: XML validation for ParlaMint-HR_T05.xml
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:109:10: error: element "text" missing required attribute "ana"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:111:15: error: element "div" missing required attribute "type"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:929:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:8471:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:34772:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:90445:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:125560:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:152362:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:211182:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:256905:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:257017:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:315949:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:407491:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:461131:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:515168:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:550791:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:594568:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:650370:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:749048:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:802000:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:914553:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:970978:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:1036353:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+/home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05.xml:1080075:19: error: element "head" not allowed here; expected the element end-tag or element "gap", "incident", "kinesic", "note", "pb", "u" or "vocal"
+^C%                                                                             peter@peter-lenovo[3:58:51]:~$ 
