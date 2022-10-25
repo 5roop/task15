@@ -116,6 +116,8 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path], fi
     from xml.etree.ElementTree import XML, Element, SubElement, tostring
     merged = pd.read_pickle(pickled_file)
     def get_who_field(row) -> str:
+        if not row["lastname"]:
+            return "#Unknown"
         try:
             lastname = "".join(row["lastname"].split())
             firstname = "".join(row["firstname"].split())

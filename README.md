@@ -107,3 +107,21 @@ Is `Adam, Jene` written correctly?
 * Add missing parties to parties table. See wiki articles in skype chat.
 * Fix references
 * Run contrubuting.md validation as described on github.
+
+
+# Meeting notes 2022-10-24T11:16:33
+
+✓ `Nepoznat` errors: create a new MP, called Unknown. Assign these instances to them.
+
+✓ inWrite an email to Tomaž and set a meeting to fix further.
+
+
+# Meeting with Tomaž, questions:
+
+* What's up with the two errors in the validation output? (`ERROR: Can't find local id for u/@who="#GolemAnteZvonimir` and `ERROR: Duplicate party affiliation for #HS`) 
+* Validation is currently done with `make validate-parlamint-HR`, is there more to be done?
+* Are there any hooks when pushing to my fork?
+* Term 10 is still ongoing. Is it better to list it as finished at the last date for which there are data or is it better to go for some other designation? Right now I use the latest date for which we still have data.
+* I don't have education data (only `education_y`). So far this does not affect validation, but probably we want to include this.
+* Right now all entries in the MP table are assumed to have `role="member"` in the affiliation.
+* (If there is time:) Is there a smart way to work with TEI namespaces?
