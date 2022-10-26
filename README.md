@@ -118,10 +118,37 @@ Is `Adam, Jene` written correctly?
 
 # Meeting with Tomaž, questions:
 
+<!-- * Validation is currently done with `make validate-parlamint-HR`, is there more to be done? -->
 * What's up with the two errors in the validation output? (`ERROR: Can't find local id for u/@who="#GolemAnteZvonimir` and `ERROR: Duplicate party affiliation for #HS`) 
-* Validation is currently done with `make validate-parlamint-HR`, is there more to be done?
 * Are there any hooks when pushing to my fork?
-* Term 10 is still ongoing. Is it better to list it as finished at the last date for which there are data or is it better to go for some other designation? Right now I use the latest date for which we still have data.
-* I don't have education data (only `education_y`). So far this does not affect validation, but probably we want to include this.
+<!-- * Term 10 is still ongoing. Is it better to list it as finished at the last date for which there are data or is it better to go for some other designation? Right now I use the latest date for which we still have data. -->
+* I don't have education data (only `education_y`). So far this does not affect validation, but probably we want to include this. -> No problem. Not necessary. For 
 * Right now all entries in the MP table are assumed to have `role="member"` in the affiliation.
-* (If there is time:) Is there a smart way to work with TEI namespaces?
+* (If there is time:) Is there a smart way to work with TEI namespaces? Not really.
+
+# Tomaž's suggestions:
+
+TEI components are to be grouped by days. Is it feasible to reconstruct days from metadata?
+
+In affiliations, set also to and from fields to prevent diplicate affiliations:
+```
+	<affiliation role="member" ref="#party.SDP" from="" to="">
+		<roleName xml:lang="en">Member</roleName>
+	</affiliation>
+```
+See to this: `xml:id="ParlaMint-HR_T8.S1.u1"` needs zero-padded terms!
+
+Drop "to" for the ongoing term.
+
+<!-- Nikola's suggestion: we can reuse `n` from `<person xml:id="AhelIrena" n="MP234">` to store Michal's `codemps`. -->
+
+To push on my fork, use branch `data-HR`
+
+Open issue with suggestion re:line numberings in validation errors. (And any suggestions or problems encountered.)
+
+# Meeting notes 2022-10-25T14:24:31
+
+* In MP table the first and last name are swapped!! Fix and rerun.
+* Add term info on affiliations
+* Merge the ladies with duplicate codeMPs.
+* Every other person that 

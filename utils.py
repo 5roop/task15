@@ -116,7 +116,7 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path], fi
     from xml.etree.ElementTree import XML, Element, SubElement, tostring
     merged = pd.read_pickle(pickled_file)
     def get_who_field(row) -> str:
-        if not row["lastname"]:
+        if pd.isna(row["lastname"]):
             return "#Unknown"
         try:
             lastname = "".join(row["lastname"].split())
@@ -131,7 +131,8 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path], fi
                 return f"#{lastname}{firstname}"
             except:
                 print("Getting errors for ", row["Speaker_name"], row["lastname"], row["firstname"])
-                return f"#ErrorError:{row['Speaker_name']=},{row['lastname']=},{row['firstname']=}"
+                return "#Unknown"
+                # return f"#ErrorError:{row['Speaker_name']=},{row['lastname']=},{row['firstname']=}"
                 
 
     def get_ana_field(row) -> str:
@@ -262,18 +263,20 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path], fi
     TEI.append(XML(stringheader))
 
     text = SubElement(TEI, "text")
+    text.set("ana", "#reference")
     body = SubElement(text, "body")
     div = SubElement(body, "div")
+    div.set("type", "debateSection")
 
     current_u_n = 0
     seg_index = 0
     title = None
     word_count = 0
     for i, row in merged.iterrows():
-        if row["Title"] != title:
-            head = SubElement(div, "head")
-            head.text = row["Title"]
-            title = row["Title"]
+        # if row["Title"] != title:
+        #     head = SubElement(div, "head")
+        #     head.text = row["Title"]
+        #     title = row["Title"]
         u = SubElement(div, "u")
         u.set("who", get_who_field(row))
         u.set("ana", get_ana_field(row))
