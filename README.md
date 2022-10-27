@@ -19,6 +19,9 @@ For posterity: so far we have seen markers:
 * `(Pljesak!)`
 * `(ne razumije se)`
 * `(govornik se naknadno uključio, ne čuje se)`
+* "…/Upadica Grbin, ne razumije se./…"
+* "…/Upadica Grbin: Pročitajte Poslovnik./…"
+* NASTAVAK NAKON STANKE U 12,06 SATI Poštovane kolegice i kolege,
 
 
 

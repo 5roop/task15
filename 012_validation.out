@@ -1,0 +1,509 @@
+INFO: Validating directory /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR
+INFO: Validating TEI root /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR.xml
+INFO: XML validation for ParlaMint-HR.xml
+INFO: Content validaton for ParlaMint-HR.xml
+INFO: particDesc content validaton for ParlaMint-HR.xml
+INFO[10] ParlaMint-HR: Total number of affiliations with government.HR: 0
+ERROR[10] ParlaMint-HR: government-role organisation without affiliation: #government.HR
+INFO[10] ParlaMint-HR: Total number of affiliations with HS: 1141
+INFO[10] ParlaMint-HR: Total number of affiliations with party.DC: 4
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HDSSB: 23
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HDZ: 458
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HNS: 56
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HSLS: 9
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HSP: 8
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HSS: 35
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HSU: 14
+INFO[10] ParlaMint-HR: Total number of affiliations with party.IDS: 19
+INFO[10] ParlaMint-HR: Total number of affiliations with party.LIBRA: 0
+WARN[10] ParlaMint-HR: parliamentaryGroup-role organisation without affiliation: #party.LIBRA
+INFO[10] ParlaMint-HR: Total number of affiliations with party.LS: 0
+WARN[10] ParlaMint-HR: parliamentaryGroup-role organisation without affiliation: #party.LS
+INFO[10] ParlaMint-HR: Total number of affiliations with party.MDS: 1
+INFO[10] ParlaMint-HR: Total number of affiliations with party.PGS: 1
+INFO[10] ParlaMint-HR: Total number of affiliations with party.SBHS: 1
+INFO[10] ParlaMint-HR: Total number of affiliations with party.SDAH: 2
+INFO[10] ParlaMint-HR: Total number of affiliations with party.SDP: 287
+INFO[10] ParlaMint-HR: Total number of affiliations with party.SDSS: 22
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HRVATSKI_LABURISTI: 6
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HSD: 1
+INFO[10] ParlaMint-HR: Total number of affiliations with party.BDSH: 1
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HGS: 2
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HSP_AS: 5
+INFO[10] ParlaMint-HR: Total number of affiliations with party.ID: 1
+INFO[10] ParlaMint-HR: Total number of affiliations with party.NAPRIJED_HRVATSKA: 1
+INFO[10] ParlaMint-HR: Total number of affiliations with party.NOVI_VAL: 1
+INFO[10] ParlaMint-HR: Total number of affiliations with party.ORAH: 3
+INFO[10] ParlaMint-HR: Total number of affiliations with party.REFORMISTI: 7
+INFO[10] ParlaMint-HR: Total number of affiliations with party.BM365: 1
+INFO[10] ParlaMint-HR: Total number of affiliations with party.BUZ: 1
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HDS: 4
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HRAST: 2
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HRID: 2
+INFO[10] ParlaMint-HR: Total number of affiliations with party.MOST: 37
+INFO[10] ParlaMint-HR: Total number of affiliations with party.NLSP: 1
+INFO[10] ParlaMint-HR: Total number of affiliations with party.PH: 5
+INFO[10] ParlaMint-HR: Total number of affiliations with party.ŽIVI_ZID: 4
+INFO[10] ParlaMint-HR: Total number of affiliations with party.GLAS: 5
+INFO[10] ParlaMint-HR: Total number of affiliations with party.SMSH: 1
+INFO[10] ParlaMint-HR: Total number of affiliations with party.SNAGA: 1
+INFO[10] ParlaMint-HR: Total number of affiliations with party.DP: 11
+INFO[10] ParlaMint-HR: Total number of affiliations with party.ZK: 5
+INFO[10] ParlaMint-HR: Total number of affiliations with party.SIP: 1
+INFO[10] ParlaMint-HR: Total number of affiliations with party.PAMETNO: 1
+INFO[10] ParlaMint-HR: Total number of affiliations with party.FOKUS: 2
+INFO[10] ParlaMint-HR: Total number of affiliations with party.NEZAVISNI: 87
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HS: 1
+INFO[10] ParlaMint-HR: Total number of affiliations with party.HKS: 1
+INFO[12] ParlaMint-HR: Total number of organizations with parliament role: 1
+INFO[12] ParlaMint-HR: Total number of organizations with government role: 1
+INFO[12] ParlaMint-HR: Total number of organizations with parliamentaryGroup role: 47
+INFO[??] ParlaMint-HR: Total number of affiliations 2282
+INFO[??] ParlaMint-HR: Total number of NO-role affiliations 0
+INFO[??] ParlaMint-HR: Total number of 'member' role affiliations 2282
+INFO: Link checking for ParlaMint-HR.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S01.xml
+INFO: XML validation for ParlaMint-HR_T05_S01.xml
+INFO: Content validaton for ParlaMint-HR_T05_S01.xml
+WARN ParlaMint-HR_T05_S01: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S01.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S02.xml
+INFO: XML validation for ParlaMint-HR_T05_S02.xml
+INFO: Content validaton for ParlaMint-HR_T05_S02.xml
+WARN ParlaMint-HR_T05_S02: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S02.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S03.xml
+INFO: XML validation for ParlaMint-HR_T05_S03.xml
+INFO: Content validaton for ParlaMint-HR_T05_S03.xml
+WARN ParlaMint-HR_T05_S03: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S03.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S04.xml
+INFO: XML validation for ParlaMint-HR_T05_S04.xml
+INFO: Content validaton for ParlaMint-HR_T05_S04.xml
+WARN ParlaMint-HR_T05_S04: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S04.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S05.xml
+INFO: XML validation for ParlaMint-HR_T05_S05.xml
+INFO: Content validaton for ParlaMint-HR_T05_S05.xml
+WARN ParlaMint-HR_T05_S05: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S05.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S06.xml
+INFO: XML validation for ParlaMint-HR_T05_S06.xml
+INFO: Content validaton for ParlaMint-HR_T05_S06.xml
+WARN ParlaMint-HR_T05_S06: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S06.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S07.xml
+INFO: XML validation for ParlaMint-HR_T05_S07.xml
+INFO: Content validaton for ParlaMint-HR_T05_S07.xml
+WARN ParlaMint-HR_T05_S07: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S07.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S08.xml
+INFO: XML validation for ParlaMint-HR_T05_S08.xml
+INFO: Content validaton for ParlaMint-HR_T05_S08.xml
+WARN ParlaMint-HR_T05_S08: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S08.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S09.xml
+INFO: XML validation for ParlaMint-HR_T05_S09.xml
+INFO: Content validaton for ParlaMint-HR_T05_S09.xml
+WARN ParlaMint-HR_T05_S09: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S09.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S10.xml
+INFO: XML validation for ParlaMint-HR_T05_S10.xml
+INFO: Content validaton for ParlaMint-HR_T05_S10.xml
+WARN ParlaMint-HR_T05_S10: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S10.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S11.xml
+INFO: XML validation for ParlaMint-HR_T05_S11.xml
+INFO: Content validaton for ParlaMint-HR_T05_S11.xml
+WARN ParlaMint-HR_T05_S11: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S11.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S12.xml
+INFO: XML validation for ParlaMint-HR_T05_S12.xml
+INFO: Content validaton for ParlaMint-HR_T05_S12.xml
+WARN ParlaMint-HR_T05_S12: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S12.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S13.xml
+INFO: XML validation for ParlaMint-HR_T05_S13.xml
+INFO: Content validaton for ParlaMint-HR_T05_S13.xml
+WARN ParlaMint-HR_T05_S13: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S13.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S14.xml
+INFO: XML validation for ParlaMint-HR_T05_S14.xml
+INFO: Content validaton for ParlaMint-HR_T05_S14.xml
+WARN ParlaMint-HR_T05_S14: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S14.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S15.xml
+INFO: XML validation for ParlaMint-HR_T05_S15.xml
+INFO: Content validaton for ParlaMint-HR_T05_S15.xml
+WARN ParlaMint-HR_T05_S15: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S15.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S16.xml
+INFO: XML validation for ParlaMint-HR_T05_S16.xml
+INFO: Content validaton for ParlaMint-HR_T05_S16.xml
+WARN ParlaMint-HR_T05_S16: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S16.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S17.xml
+INFO: XML validation for ParlaMint-HR_T05_S17.xml
+INFO: Content validaton for ParlaMint-HR_T05_S17.xml
+WARN ParlaMint-HR_T05_S17: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S17.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S18.xml
+INFO: XML validation for ParlaMint-HR_T05_S18.xml
+INFO: Content validaton for ParlaMint-HR_T05_S18.xml
+WARN ParlaMint-HR_T05_S18: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S18.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S19.xml
+INFO: XML validation for ParlaMint-HR_T05_S19.xml
+INFO: Content validaton for ParlaMint-HR_T05_S19.xml
+WARN ParlaMint-HR_T05_S19: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S19.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S20.xml
+INFO: XML validation for ParlaMint-HR_T05_S20.xml
+INFO: Content validaton for ParlaMint-HR_T05_S20.xml
+WARN ParlaMint-HR_T05_S20: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S20.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S21.xml
+INFO: XML validation for ParlaMint-HR_T05_S21.xml
+INFO: Content validaton for ParlaMint-HR_T05_S21.xml
+WARN ParlaMint-HR_T05_S21: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S21.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S22.xml
+INFO: XML validation for ParlaMint-HR_T05_S22.xml
+INFO: Content validaton for ParlaMint-HR_T05_S22.xml
+WARN ParlaMint-HR_T05_S22: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S22.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S23.xml
+INFO: XML validation for ParlaMint-HR_T05_S23.xml
+INFO: Content validaton for ParlaMint-HR_T05_S23.xml
+WARN ParlaMint-HR_T05_S23: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S23.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S24.xml
+INFO: XML validation for ParlaMint-HR_T05_S24.xml
+INFO: Content validaton for ParlaMint-HR_T05_S24.xml
+WARN ParlaMint-HR_T05_S24: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S24.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S25.xml
+INFO: XML validation for ParlaMint-HR_T05_S25.xml
+INFO: Content validaton for ParlaMint-HR_T05_S25.xml
+WARN ParlaMint-HR_T05_S25: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S25.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S26.xml
+INFO: XML validation for ParlaMint-HR_T05_S26.xml
+INFO: Content validaton for ParlaMint-HR_T05_S26.xml
+WARN ParlaMint-HR_T05_S26: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S26.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S27.xml
+INFO: XML validation for ParlaMint-HR_T05_S27.xml
+INFO: Content validaton for ParlaMint-HR_T05_S27.xml
+WARN ParlaMint-HR_T05_S27: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T05_S27.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S01.xml
+INFO: XML validation for ParlaMint-HR_T06_S01.xml
+INFO: Content validaton for ParlaMint-HR_T06_S01.xml
+WARN ParlaMint-HR_T06_S01: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S01.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S02.xml
+INFO: XML validation for ParlaMint-HR_T06_S02.xml
+INFO: Content validaton for ParlaMint-HR_T06_S02.xml
+WARN ParlaMint-HR_T06_S02: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S02.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S03.xml
+INFO: XML validation for ParlaMint-HR_T06_S03.xml
+INFO: Content validaton for ParlaMint-HR_T06_S03.xml
+WARN ParlaMint-HR_T06_S03: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S03.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S04.xml
+INFO: XML validation for ParlaMint-HR_T06_S04.xml
+INFO: Content validaton for ParlaMint-HR_T06_S04.xml
+WARN ParlaMint-HR_T06_S04: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S04.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S05.xml
+INFO: XML validation for ParlaMint-HR_T06_S05.xml
+INFO: Content validaton for ParlaMint-HR_T06_S05.xml
+WARN ParlaMint-HR_T06_S05: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S05.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S06.xml
+INFO: XML validation for ParlaMint-HR_T06_S06.xml
+INFO: Content validaton for ParlaMint-HR_T06_S06.xml
+WARN ParlaMint-HR_T06_S06: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S06.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S07.xml
+INFO: XML validation for ParlaMint-HR_T06_S07.xml
+INFO: Content validaton for ParlaMint-HR_T06_S07.xml
+WARN ParlaMint-HR_T06_S07: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S07.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S08.xml
+INFO: XML validation for ParlaMint-HR_T06_S08.xml
+INFO: Content validaton for ParlaMint-HR_T06_S08.xml
+WARN ParlaMint-HR_T06_S08: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S08.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S09.xml
+INFO: XML validation for ParlaMint-HR_T06_S09.xml
+INFO: Content validaton for ParlaMint-HR_T06_S09.xml
+WARN ParlaMint-HR_T06_S09: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S09.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S10.xml
+INFO: XML validation for ParlaMint-HR_T06_S10.xml
+INFO: Content validaton for ParlaMint-HR_T06_S10.xml
+WARN ParlaMint-HR_T06_S10: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S10.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S11.xml
+INFO: XML validation for ParlaMint-HR_T06_S11.xml
+INFO: Content validaton for ParlaMint-HR_T06_S11.xml
+WARN ParlaMint-HR_T06_S11: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S11.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S12.xml
+INFO: XML validation for ParlaMint-HR_T06_S12.xml
+INFO: Content validaton for ParlaMint-HR_T06_S12.xml
+WARN ParlaMint-HR_T06_S12: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S12.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S13.xml
+INFO: XML validation for ParlaMint-HR_T06_S13.xml
+INFO: Content validaton for ParlaMint-HR_T06_S13.xml
+WARN ParlaMint-HR_T06_S13: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S13.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S14.xml
+INFO: XML validation for ParlaMint-HR_T06_S14.xml
+INFO: Content validaton for ParlaMint-HR_T06_S14.xml
+WARN ParlaMint-HR_T06_S14: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S14.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S15.xml
+INFO: XML validation for ParlaMint-HR_T06_S15.xml
+INFO: Content validaton for ParlaMint-HR_T06_S15.xml
+WARN ParlaMint-HR_T06_S15: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S15.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S16.xml
+INFO: XML validation for ParlaMint-HR_T06_S16.xml
+INFO: Content validaton for ParlaMint-HR_T06_S16.xml
+WARN ParlaMint-HR_T06_S16: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S16.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S17.xml
+INFO: XML validation for ParlaMint-HR_T06_S17.xml
+INFO: Content validaton for ParlaMint-HR_T06_S17.xml
+WARN ParlaMint-HR_T06_S17: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S17.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S18.xml
+INFO: XML validation for ParlaMint-HR_T06_S18.xml
+INFO: Content validaton for ParlaMint-HR_T06_S18.xml
+WARN ParlaMint-HR_T06_S18: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S18.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S19.xml
+INFO: XML validation for ParlaMint-HR_T06_S19.xml
+INFO: Content validaton for ParlaMint-HR_T06_S19.xml
+WARN ParlaMint-HR_T06_S19: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S19.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S20.xml
+INFO: XML validation for ParlaMint-HR_T06_S20.xml
+INFO: Content validaton for ParlaMint-HR_T06_S20.xml
+WARN ParlaMint-HR_T06_S20: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S20.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S21.xml
+INFO: XML validation for ParlaMint-HR_T06_S21.xml
+INFO: Content validaton for ParlaMint-HR_T06_S21.xml
+WARN ParlaMint-HR_T06_S21: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S21.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S22.xml
+INFO: XML validation for ParlaMint-HR_T06_S22.xml
+INFO: Content validaton for ParlaMint-HR_T06_S22.xml
+WARN ParlaMint-HR_T06_S22: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S22.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S23.xml
+INFO: XML validation for ParlaMint-HR_T06_S23.xml
+INFO: Content validaton for ParlaMint-HR_T06_S23.xml
+WARN ParlaMint-HR_T06_S23: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S23.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T06_S24.xml
+INFO: XML validation for ParlaMint-HR_T06_S24.xml
+INFO: Content validaton for ParlaMint-HR_T06_S24.xml
+WARN ParlaMint-HR_T06_S24: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T06_S24.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S01.xml
+INFO: XML validation for ParlaMint-HR_T07_S01.xml
+INFO: Content validaton for ParlaMint-HR_T07_S01.xml
+WARN ParlaMint-HR_T07_S01: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S01.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S02.xml
+INFO: XML validation for ParlaMint-HR_T07_S02.xml
+INFO: Content validaton for ParlaMint-HR_T07_S02.xml
+WARN ParlaMint-HR_T07_S02: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S02.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S03.xml
+INFO: XML validation for ParlaMint-HR_T07_S03.xml
+INFO: Content validaton for ParlaMint-HR_T07_S03.xml
+WARN ParlaMint-HR_T07_S03: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S03.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S04.xml
+INFO: XML validation for ParlaMint-HR_T07_S04.xml
+INFO: Content validaton for ParlaMint-HR_T07_S04.xml
+WARN ParlaMint-HR_T07_S04: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S04.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S05.xml
+INFO: XML validation for ParlaMint-HR_T07_S05.xml
+INFO: Content validaton for ParlaMint-HR_T07_S05.xml
+WARN ParlaMint-HR_T07_S05: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S05.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S06.xml
+INFO: XML validation for ParlaMint-HR_T07_S06.xml
+INFO: Content validaton for ParlaMint-HR_T07_S06.xml
+WARN ParlaMint-HR_T07_S06: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S06.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S07.xml
+INFO: XML validation for ParlaMint-HR_T07_S07.xml
+INFO: Content validaton for ParlaMint-HR_T07_S07.xml
+WARN ParlaMint-HR_T07_S07: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S07.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S08.xml
+INFO: XML validation for ParlaMint-HR_T07_S08.xml
+INFO: Content validaton for ParlaMint-HR_T07_S08.xml
+WARN ParlaMint-HR_T07_S08: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S08.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S09.xml
+INFO: XML validation for ParlaMint-HR_T07_S09.xml
+INFO: Content validaton for ParlaMint-HR_T07_S09.xml
+WARN ParlaMint-HR_T07_S09: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S09.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S10.xml
+INFO: XML validation for ParlaMint-HR_T07_S10.xml
+INFO: Content validaton for ParlaMint-HR_T07_S10.xml
+WARN ParlaMint-HR_T07_S10: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S10.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S11.xml
+INFO: XML validation for ParlaMint-HR_T07_S11.xml
+INFO: Content validaton for ParlaMint-HR_T07_S11.xml
+WARN ParlaMint-HR_T07_S11: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S11.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S12.xml
+INFO: XML validation for ParlaMint-HR_T07_S12.xml
+INFO: Content validaton for ParlaMint-HR_T07_S12.xml
+WARN ParlaMint-HR_T07_S12: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S12.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S13.xml
+INFO: XML validation for ParlaMint-HR_T07_S13.xml
+INFO: Content validaton for ParlaMint-HR_T07_S13.xml
+WARN ParlaMint-HR_T07_S13: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S13.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S14.xml
+INFO: XML validation for ParlaMint-HR_T07_S14.xml
+INFO: Content validaton for ParlaMint-HR_T07_S14.xml
+WARN ParlaMint-HR_T07_S14: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S14.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S15.xml
+INFO: XML validation for ParlaMint-HR_T07_S15.xml
+INFO: Content validaton for ParlaMint-HR_T07_S15.xml
+WARN ParlaMint-HR_T07_S15: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S15.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S16.xml
+INFO: XML validation for ParlaMint-HR_T07_S16.xml
+INFO: Content validaton for ParlaMint-HR_T07_S16.xml
+WARN ParlaMint-HR_T07_S16: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S16.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S17.xml
+INFO: XML validation for ParlaMint-HR_T07_S17.xml
+INFO: Content validaton for ParlaMint-HR_T07_S17.xml
+WARN ParlaMint-HR_T07_S17: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S17.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S18.xml
+INFO: XML validation for ParlaMint-HR_T07_S18.xml
+INFO: Content validaton for ParlaMint-HR_T07_S18.xml
+WARN ParlaMint-HR_T07_S18: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S18.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S19.xml
+INFO: XML validation for ParlaMint-HR_T07_S19.xml
+INFO: Content validaton for ParlaMint-HR_T07_S19.xml
+WARN ParlaMint-HR_T07_S19: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S19.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T07_S20.xml
+INFO: XML validation for ParlaMint-HR_T07_S20.xml
+INFO: Content validaton for ParlaMint-HR_T07_S20.xml
+WARN ParlaMint-HR_T07_S20: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T07_S20.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T08_S01.xml
+INFO: XML validation for ParlaMint-HR_T08_S01.xml
+INFO: Content validaton for ParlaMint-HR_T08_S01.xml
+WARN ParlaMint-HR_T08_S01: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T08_S01.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T08_S02.xml
+INFO: XML validation for ParlaMint-HR_T08_S02.xml
+INFO: Content validaton for ParlaMint-HR_T08_S02.xml
+WARN ParlaMint-HR_T08_S02: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T08_S02.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T08_S03.xml
+INFO: XML validation for ParlaMint-HR_T08_S03.xml
+INFO: Content validaton for ParlaMint-HR_T08_S03.xml
+WARN ParlaMint-HR_T08_S03: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T08_S03.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T09_S01.xml
+INFO: XML validation for ParlaMint-HR_T09_S01.xml
+INFO: Content validaton for ParlaMint-HR_T09_S01.xml
+WARN ParlaMint-HR_T09_S01: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T09_S01.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T09_S02.xml
+INFO: XML validation for ParlaMint-HR_T09_S02.xml
+INFO: Content validaton for ParlaMint-HR_T09_S02.xml
+WARN ParlaMint-HR_T09_S02: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T09_S02.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T09_S03.xml
+INFO: XML validation for ParlaMint-HR_T09_S03.xml
+INFO: Content validaton for ParlaMint-HR_T09_S03.xml
+WARN ParlaMint-HR_T09_S03: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T09_S03.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T09_S04.xml
+INFO: XML validation for ParlaMint-HR_T09_S04.xml
+INFO: Content validaton for ParlaMint-HR_T09_S04.xml
+WARN ParlaMint-HR_T09_S04: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T09_S04.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T10_S01.xml
+INFO: XML validation for ParlaMint-HR_T10_S01.xml
+INFO: Content validaton for ParlaMint-HR_T10_S01.xml
+WARN ParlaMint-HR_T10_S01: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T10_S01.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T10_S02.xml
+INFO: XML validation for ParlaMint-HR_T10_S02.xml
+INFO: Content validaton for ParlaMint-HR_T10_S02.xml
+WARN ParlaMint-HR_T10_S02: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T10_S02.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T10_S03.xml
+INFO: XML validation for ParlaMint-HR_T10_S03.xml
+INFO: Content validaton for ParlaMint-HR_T10_S03.xml
+WARN ParlaMint-HR_T10_S03: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T10_S03.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T10_S04.xml
+INFO: XML validation for ParlaMint-HR_T10_S04.xml
+INFO: Content validaton for ParlaMint-HR_T10_S04.xml
+WARN ParlaMint-HR_T10_S04: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T10_S04.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T10_S05.xml
+INFO: XML validation for ParlaMint-HR_T10_S05.xml
+INFO: Content validaton for ParlaMint-HR_T10_S05.xml
+WARN ParlaMint-HR_T10_S05: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T10_S05.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T10_S06.xml
+INFO: XML validation for ParlaMint-HR_T10_S06.xml
+INFO: Content validaton for ParlaMint-HR_T10_S06.xml
+WARN ParlaMint-HR_T10_S06: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T10_S06.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T10_S07.xml
+INFO: XML validation for ParlaMint-HR_T10_S07.xml
+INFO: Content validaton for ParlaMint-HR_T10_S07.xml
+WARN ParlaMint-HR_T10_S07: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T10_S07.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T10_S08.xml
+INFO: XML validation for ParlaMint-HR_T10_S08.xml
+INFO: Content validaton for ParlaMint-HR_T10_S08.xml
+WARN ParlaMint-HR_T10_S08: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T10_S08.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T10_S09.xml
+INFO: XML validation for ParlaMint-HR_T10_S09.xml
+INFO: Content validaton for ParlaMint-HR_T10_S09.xml
+WARN ParlaMint-HR_T10_S09: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T10_S09.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T10_S10.xml
+INFO: XML validation for ParlaMint-HR_T10_S10.xml
+INFO: Content validaton for ParlaMint-HR_T10_S10.xml
+WARN ParlaMint-HR_T10_S10: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T10_S10.xml
+INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T10_S11.xml
+INFO: XML validation for ParlaMint-HR_T10_S11.xml
+INFO: Content validaton for ParlaMint-HR_T10_S11.xml
+WARN ParlaMint-HR_T10_S11: TEI ID should have only one underscore
+INFO: Link checking for ParlaMint-HR_T10_S11.xml
