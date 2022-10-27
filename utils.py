@@ -269,7 +269,6 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path], fi
     div.set("type", "debateSection")
 
     current_u_n = 0
-    seg_index = 0
     title = None
     word_count = 0
     for i, row in merged.iterrows():
@@ -285,11 +284,10 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path], fi
         u.set("xml:id", row["ID"])
         u.set("n",str(current_u_n))
 
-        for segment in row["sentences"]:
+        for sentence_index, segment in enumerate(row["sentences"]):
             seg = SubElement(u, "seg")
-            seg.set("xml:id", f"seg{file_index:02}{seg_index:010}")
+            seg.set("xml:id", f"{row['ID']}.s{sentence_index}")
             seg.text = segment
-            seg_index += 1
             word_count += len(segment.split())
         current_u_n += 1
         
