@@ -258,7 +258,7 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path], fi
     TEI = Element('TEI')
     TEI.set("xmlns", "http://www.tei-c.org/ns/1.0")
     TEI.set("xml:lang", "hr")
-    TEI.set("xml:id", f"ParlaMint-HR_T{file_index:02}")
+    TEI.set("xml:id", f"ParlaMint-HR_T{file_index}")
     TEI.set("ana", "#parla.term #reference")
     TEI.append(XML(stringheader))
 
