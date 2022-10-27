@@ -272,10 +272,6 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path], fi
     title = None
     word_count = 0
     for i, row in merged.iterrows():
-        # if row["Title"] != title:
-        #     head = SubElement(div, "head")
-        #     head.text = row["Title"]
-        #     title = row["Title"]
         u = SubElement(div, "u")
         who = get_who_field(row)
         if not who.casefold().contains("unknown"):
