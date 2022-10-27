@@ -110,7 +110,8 @@ def prepare_interim_files(
     alldatamerged.to_pickle(out_file)
 
 
-def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path], file_index: int) -> None:
+def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path],
+                  term_index: int, session_index: int) -> None:
     
     from xml.dom import minidom
     from xml.etree.ElementTree import XML, Element, SubElement, tostring
@@ -154,11 +155,11 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path], fi
 <teiHeader>
     <fileDesc>
         <titleStmt>
-            <title type="main" xml:lang="hr">Hrvatski parlamentarni korpus ParlaMint-HR, Mandat {file_index} [ParlaMint SAMPLE]</title>
-            <title type="main" xml:lang="en">Croatian parliamentary corpus ParlaMint-HR, Term {file_index} [ParlaMint SAMPLE]</title>
-            <title type="sub" xml:lang="hr">Zapisnici sjednica Hrvatskog sabora, mandat {file_index}</title>
-            <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia, Term {file_index}</title>
-            <meeting n="{file_index}" corresp="#HS" ana="#parla.term #HS.{file_index}">{file_index}. mandat</meeting>
+            <title type="main" xml:lang="hr">Hrvatski parlamentarni korpus ParlaMint-HR, Mandat {term_index}, Sjednica {session_index}[ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Croatian parliamentary corpus ParlaMint-HR, Term {term_index}, Session {session_index} [ParlaMint SAMPLE]</title>
+            <title type="sub" xml:lang="hr">Zapisnici sjednica Hrvatskog sabora, mandat {term_index}, sjednica {session_index}</title>
+            <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia, Term {term_index}, Session {session_index}</title>
+            <meeting n="T{term_index:02}S{session_index:02}" corresp="#HS" ana="#parla.term #HS.{term_index}">{term_index}. mandat, {session_index}. sjednica</meeting>
             <respStmt>
             <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
             <resp xml:lang="hr">Preuzimanje i čiščenje digitalnog izvora</resp>
@@ -258,7 +259,7 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path], fi
     TEI = Element('TEI')
     TEI.set("xmlns", "http://www.tei-c.org/ns/1.0")
     TEI.set("xml:lang", "hr")
-    TEI.set("xml:id", f"ParlaMint-HR_T{file_index}")
+    TEI.set("xml:id", f"ParlaMint-HR_T{term_index:02}_S{session_index:02}")
     TEI.set("ana", "#parla.term #reference")
     TEI.append(XML(stringheader))
 
@@ -324,7 +325,6 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path], fi
     )
 
     with open(
-        #f"ParlaMint-HR_{file_index:02}.xml",
         out_file,
         "w"
         ) as f:
