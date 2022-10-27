@@ -278,7 +278,9 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path], fi
         #     head.text = row["Title"]
         #     title = row["Title"]
         u = SubElement(div, "u")
-        u.set("who", get_who_field(row))
+        who = get_who_field(row)
+        if not who.casefold().contains("unknown"):
+            u.set("who", )
         u.set("ana", get_ana_field(row))
         u.set("xml:id", row["ID"])
         u.set("n",str(current_u_n))
