@@ -106,12 +106,16 @@ def prepare_interim_files(
                 'ideology_LR', 'party_family', 'election_result', 'no_seats',
                 'coalition', 'coalition_composition', 'ruling']
     for c in to_categ:
-        alldatamerged[c] = pd.Categorical(alldatamerged[c])
+        try:
+            alldatamerged[c] = pd.Categorical(alldatamerged[c])
+        except:
+            pass
     alldatamerged.to_pickle(out_file)
 
 
 def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path],
-                  term_index: int, session_index: int) -> None:
+                  term_index: int, session_index: int,
+                  data_language_code: str) -> None:
     
     from xml.dom import minidom
     from xml.etree.ElementTree import XML, Element, SubElement, tostring
@@ -151,7 +155,7 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path],
     max_isostr = max(merged.To.tolist())
 
 
-    stringheader = f"""
+    stringheader_hr = f"""
 <teiHeader>
     <fileDesc>
         <titleStmt>
@@ -159,7 +163,7 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path],
             <title type="main" xml:lang="en">Croatian parliamentary corpus ParlaMint-HR, Term {term_index}, Session {session_index} [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="hr">Zapisnici sjednica Hrvatskog sabora, mandat {term_index}, sjednica {session_index}</title>
             <title type="sub" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia, Term {term_index}, Session {session_index}</title>
-            <meeting n="T{term_index:02}S{session_index:02}" corresp="#HS" ana="#parla.term #HS.{term_index}">{term_index}. mandat, {session_index}. sjednica</meeting>
+            <meeting n="T{term_index:02}S{session_index}" corresp="#HS" ana="#parla.term #HS.{term_index}">{term_index}. mandat, {session_index}. sjednica</meeting>
             <respStmt>
             <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
             <resp xml:lang="hr">Preuzimanje i čiščenje digitalnog izvora</resp>
@@ -255,11 +259,115 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path],
     </revisionDesc>
 </teiHeader>
     """
+    stringheader_srb = f"""
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title type="main" xml:lang="sr">Srpski parlamentarni korpus ParlaMint-SR, Mandat {term_index}, Zasedanje {session_index}</title>
+            <title type="main" xml:lang="en">Serbian parliamentary corpus ParlaMint-SR, Term {term_index}, Session {session_index}</title>
+            <title type="sub" xml:lang="sr">Mandat {term_index}, Zasedanje {session_index}</title>
+            <title type="sub" xml:lang="en">Term {term_index}, Session {session_index}</title>
+            <meeting n="T{term_index:02}S{session_index}" corresp="#NA" ana="#parla.term #NA.{term_index}">{term_index}. mandat, {session_index}. sjednica</meeting>
+            <respStmt>
+            <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
+            <resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
+            </respStmt>
+            <respStmt>
+            <persName ref="https://orcid.org/0000-0002-1560-4099">Tomaž Erjavec</persName>
+            <resp xml:lang="sr">Kodiranje Parla-CLARIN TEI XML</resp>
+            <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <respStmt>
+            <persName >Peter Rupnik</persName>
+            <resp xml:lang="sr">Kodiranje Parla-CLARIN TEI XML</resp>
+            <resp xml:lang="en">Parla-CLARIN TEI XML corpus encoding</resp>
+            </respStmt>
+            <funder>
+            <orgName xml:lang="sr">Istraživačka infrastrukutra CLARIN</orgName>
+            <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+        </titleStmt>
+        <editionStmt>
+            <edition>0.0a</edition>
+        </editionStmt>
+        <extent><!--These numbers do not reflect the size of the sample!-->
+            <measure unit="speeches" quantity="3941" xml:lang="sr">3.941 govora</measure>
+            <measure unit="speeches" quantity="3941" xml:lang="en">3,941 speeches</measure>
+            <measure unit="words" quantity="631188" xml:lang="sr">631.188 reči</measure>
+            <measure unit="words" quantity="631188" xml:lang="en">631,188 words</measure>
+        </extent>
+        <publicationStmt>
+            <publisher>
+            <orgName xml:lang="sr">Istraživačka infrastrukutra CLARIN</orgName>
+            <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+            <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno subtype="handle" type="URI">http://hdl.handle.net/11356/1432</idno>
+            <availability status="free">
+            <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+            <p xml:lang="sr">Ovaj rad je dostupan pod <ref target="http://creativecommons.org/licenses/by/4.0/">međunarodnom licencom Creative Commons Imenovanje 4.0</ref>
+            </p>
+            <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>
+            </p>
+            </availability>
+            <date when="2021-06-09">2021-06-09</date>
+        </publicationStmt>
+        <sourceDesc>
+            <bibl>
+            <title type="main" xml:lang="en">Minutes of the National Assembly of Serbia</title>
+            <date from="{min_isostr}" to="{max_isostr}">{min_isostr} - {max_isostr}</date>
+            </bibl>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <projectDesc>
+            <p xml:lang="sr">
+            <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+            <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+        </projectDesc>
+        <tagsDecl><!--These numbers do not reflect the size of the sample!-->
+            <namespace name="http://www.tei-c.org/ns/1.0">
+            <tagUsage gi="text" occurs="1"/>
+            <tagUsage gi="body" occurs="1"/>
+            <tagUsage gi="div" occurs="1"/>
+            <tagUsage gi="head" occurs="1"/>
+            <tagUsage gi="note" occurs="1"/>
+            <tagUsage gi="u" occurs="3941"/>
+            <tagUsage gi="seg" occurs="17551"/>
+            <tagUsage gi="vocal" occurs="201"/>
+            <tagUsage gi="desc" occurs="349"/>
+            <tagUsage gi="kinesic" occurs="9"/>
+            <tagUsage gi="gap" occurs="139"/>
+            </namespace>
+        </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+        <settingDesc>
+            <setting>
+            <name type="address">Trg Nikole Pašića 13</name>
+            <name type="city">Belgrade</name>
+            <name type="country" key="SR">Serbia</name>
+            <date  from="{min_isostr}" to="{max_isostr}" ana="#parla.session"> {min_isostr} - {max_isostr}</date>
+            </setting>
+        </settingDesc>
+    </profileDesc>
+    <revisionDesc xml:lang="en">
+        <change when="{today_isostr}">
+            <name>Peter Rupnik</name>Compile from source</change>
+    </revisionDesc>
+</teiHeader>"""
 
+    if data_language_code.casefold().startswith("sr"):
+        stringheader = stringheader_srb
+    else:
+        stringheader = stringheader_hr
     TEI = Element('TEI')
     TEI.set("xmlns", "http://www.tei-c.org/ns/1.0")
-    TEI.set("xml:lang", "hr")
-    TEI.set("xml:id", f"ParlaMint-HR_T{term_index:02}_S{session_index:02}")
+    TEI.set("xml:lang", data_language_code.casefold())
+    TEI.set("xml:id", f"ParlaMint-{data_language_code}_T{term_index:02}_S{session_index}")
     TEI.set("ana", "#parla.term #reference")
     TEI.append(XML(stringheader))
 
@@ -304,7 +412,7 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path],
         if unit == "speeches":
             nr_speeches = len(TEI.findall(".//u"))
             measure.set("quantity", str(nr_speeches))
-            if lang == "hr":
+            if lang == data_language_code:
                 measure.text = f"{nr_speeches:,d} govora".replace(",", ".")
             else:
                 measure.text = f"{nr_speeches:,d} speeches"
@@ -313,6 +421,8 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path],
             measure.set("quantity", str(word_count))
             if lang == "hr":
                 measure.text = f"{word_count:,d} riječi".replace(",", ".")
+            elif lang == "sr":
+                measure.text = f"{word_count:,d} reči".replace(",", ".")
             else:
                 measure.text = f"{word_count:,d} words"
 
@@ -329,3 +439,31 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path],
         "w"
         ) as f:
         f.write(string_to_write)    
+
+
+def correct_id(s: str) -> str:
+    """Zero-pads the terms and sessions from the ID strings.
+    Zero padding is done to 2 places (2 -> 02).
+    
+    Example:
+    input: ParlaMint-SR_T4.S2.u2565
+    output: ParlaMint-SR_T04.S02.u2565
+
+    Args:
+        s (str): input string
+
+    Returns:
+        str: output string
+    """    
+    from parse import compile
+    
+    pattern = "ParlaMint-{lang}_T{term:d}.S{session}.{rest}"
+    p = compile(pattern)
+    
+    r = p.parse(s).named
+    try:
+        lang, term, session, rest = r.get("lang"), int(r.get("term")), int(r.get("session")), r.get("rest")
+        return f"ParlaMint-{lang}_T{term:02}.S{session:02}.{rest}"
+    except:
+        lang, term, session, rest = r.get("lang"), int(r.get("term")), r.get("session"), r.get("rest")
+        return f"ParlaMint-{lang}_T{term:02}.S{session}.{rest}"
