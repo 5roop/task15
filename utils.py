@@ -44,10 +44,10 @@ def split_sentences(s: str) -> List[str]:
     except:
         import classla
         try:
-            pipeline = classla.Pipeline("hr", processors="tokenize")
+            pipeline = classla.Pipeline("sr", processors="tokenize")
         except FileNotFoundError:
-            classla.download('hr')
-            pipeline = classla.Pipeline("hr", processors="tokenize")
+            classla.download('sr')
+            pipeline = classla.Pipeline("sr", processors="tokenize")
     finally:
         results = pipeline.process(s)
     return [i.text for i in results.sentences]
@@ -133,7 +133,7 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path],
                 firstname = row["Speaker_name"].split(",")[1]
                 lastname = "".join(lastname.split())
                 firstname = "".join(firstname.split())
-                return f"#{lastname}{firstname}"
+                return f"#{drop_punctuation(lastname)}{drop_punctuation(firstname)}"
             except:
                 print("Getting errors for ", row["Speaker_name"], row["lastname"], row["firstname"])
                 return "#Unknown"
@@ -214,7 +214,7 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path],
             <title type="main" xml:lang="en">Minutes of the National Assembly of the Republic of Croatia</title>
             <idno type="URI" subtype="business">https://parlametar.hr/</idno>
             <idno type="URI" subtype="parliament">http://www.sabor.hr/</idno>
-            <date from="{min_isostr}" to="{max_isostr}">{min_isostr} - {max_isostr}</date>
+
             </bibl>
         </sourceDesc>
     </fileDesc>
@@ -249,7 +249,7 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path],
             <name type="address">Trg sv. Marka 6</name>
             <name type="city">Zagreb</name>
             <name type="country" key="HR">Croatia</name>
-            <date  from="{min_isostr}" to="{max_isostr}" ana="#parla.session"> {min_isostr} - {max_isostr}</date>
+
             </setting>
         </settingDesc>
     </profileDesc>
@@ -263,11 +263,11 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path],
 <teiHeader>
     <fileDesc>
         <titleStmt>
-            <title type="main" xml:lang="sr">Srpski parlamentarni korpus ParlaMint-SR, Mandat {term_index}, Zasedanje {session_index}</title>
-            <title type="main" xml:lang="en">Serbian parliamentary corpus ParlaMint-SR, Term {term_index}, Session {session_index}</title>
+            <title type="main" xml:lang="sr">Srpski parlamentarni korpus ParlaMint-RS-T{term_index}, Zasedanje {session_index} [ParlaMint SAMPLE]</title>
+            <title type="main" xml:lang="en">Serbian parliamentary corpus ParlaMint-RS-T{term_index}, Session {session_index} [ParlaMint SAMPLE]</title>
             <title type="sub" xml:lang="sr">Mandat {term_index}, Zasedanje {session_index}</title>
             <title type="sub" xml:lang="en">Term {term_index}, Session {session_index}</title>
-            <meeting n="T{term_index:02}S{session_index}" corresp="#NA" ana="#parla.term #NA.{term_index}">{term_index}. mandat, {session_index}. sjednica</meeting>
+            <meeting n="T{term_index:02}S{session_index}" corresp="#NS" ana="#parla.term #NS.{term_index}">{term_index}. mandat, {session_index}. sjednica</meeting>
             <respStmt>
             <persName ref="https://orcid.org/0000-0001-7169-9152">Nikola Ljubešić</persName>
             <resp xml:lang="en">Download and clean-up of the JSON digital source</resp>
@@ -315,6 +315,8 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path],
         <sourceDesc>
             <bibl>
             <title type="main" xml:lang="en">Minutes of the National Assembly of Serbia</title>
+            <idno type="URI" subtype="business">https://otvoreniparlament.rs/</idno>
+            <idno type="URI" subtype="parliament">http://www.parlament.gov.rs/</idno>
             <date from="{min_isostr}" to="{max_isostr}">{min_isostr} - {max_isostr}</date>
             </bibl>
         </sourceDesc>
@@ -359,7 +361,7 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path],
             <name>Peter Rupnik</name>Compile from source</change>
     </revisionDesc>
 </teiHeader>"""
-
+    country_code = {"hr":"HR", "sr":"RS"}.get(data_language_code.casefold())
     if data_language_code.casefold().startswith("sr"):
         stringheader = stringheader_srb
     else:
@@ -367,7 +369,7 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path],
     TEI = Element('TEI')
     TEI.set("xmlns", "http://www.tei-c.org/ns/1.0")
     TEI.set("xml:lang", data_language_code.casefold())
-    TEI.set("xml:id", f"ParlaMint-{data_language_code}_T{term_index:02}_S{session_index}")
+    TEI.set("xml:id", f"ParlaMint-{country_code}_T{term_index:02}S{session_index}")
     TEI.set("ana", "#parla.term #reference")
     TEI.append(XML(stringheader))
 
@@ -381,6 +383,8 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path],
     title = None
     word_count = 0
     for i, row in merged.iterrows():
+        if len(row["sentences"]) == 0:
+            continue
         u = SubElement(div, "u")
         who = get_who_field(row)
         if not "unknown" in who.casefold():
@@ -443,11 +447,11 @@ def construct_TEI(pickled_file: Union[str, Path], out_file: Union[str, Path],
 
 def correct_id(s: str) -> str:
     """Zero-pads the terms and sessions from the ID strings.
-    Zero padding is done to 2 places (2 -> 02).
+    Zero padding is done to 2 places (2 -> 02) where able.
     
     Example:
-    input: ParlaMint-SR_T4.S2.u2565
-    output: ParlaMint-SR_T04.S02.u2565
+    input: ParlaMint-RS_T4.S2.u2565
+    output: ParlaMint-RS_T04.S02.u2565
 
     Args:
         s (str): input string
@@ -463,7 +467,13 @@ def correct_id(s: str) -> str:
     r = p.parse(s).named
     try:
         lang, term, session, rest = r.get("lang"), int(r.get("term")), int(r.get("session")), r.get("rest")
+        lang = lang.upper()
         return f"ParlaMint-{lang}_T{term:02}.S{session:02}.{rest}"
     except:
         lang, term, session, rest = r.get("lang"), int(r.get("term")), r.get("session"), r.get("rest")
+        lang = lang.upper()
         return f"ParlaMint-{lang}_T{term:02}.S{session}.{rest}"
+    
+    
+def drop_punctuation(s:str)-> str:
+    return ''.join(c for c in s if c.isalnum())

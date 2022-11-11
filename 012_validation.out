@@ -3,64 +3,64 @@ INFO: Validating TEI root /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/Par
 INFO: XML validation for ParlaMint-HR.xml
 INFO: Content validaton for ParlaMint-HR.xml
 INFO: particDesc content validaton for ParlaMint-HR.xml
-INFO[10] ParlaMint-HR: Total number of affiliations with government.HR: 0
-ERROR[10] ParlaMint-HR: government-role organisation without affiliation: #government.HR
-INFO[10] ParlaMint-HR: Total number of affiliations with HS: 1141
-INFO[10] ParlaMint-HR: Total number of affiliations with party.DC: 4
-INFO[10] ParlaMint-HR: Total number of affiliations with party.HDSSB: 23
-INFO[10] ParlaMint-HR: Total number of affiliations with party.HDZ: 458
-INFO[10] ParlaMint-HR: Total number of affiliations with party.HNS: 56
-INFO[10] ParlaMint-HR: Total number of affiliations with party.HSLS: 9
-INFO[10] ParlaMint-HR: Total number of affiliations with party.HSP: 8
-INFO[10] ParlaMint-HR: Total number of affiliations with party.HSS: 35
-INFO[10] ParlaMint-HR: Total number of affiliations with party.HSU: 14
-INFO[10] ParlaMint-HR: Total number of affiliations with party.IDS: 19
-INFO[10] ParlaMint-HR: Total number of affiliations with party.LIBRA: 0
-WARN[10] ParlaMint-HR: parliamentaryGroup-role organisation without affiliation: #party.LIBRA
-INFO[10] ParlaMint-HR: Total number of affiliations with party.LS: 0
-WARN[10] ParlaMint-HR: parliamentaryGroup-role organisation without affiliation: #party.LS
-INFO[10] ParlaMint-HR: Total number of affiliations with party.MDS: 1
-INFO[10] ParlaMint-HR: Total number of affiliations with party.PGS: 1
-INFO[10] ParlaMint-HR: Total number of affiliations with party.SBHS: 1
-INFO[10] ParlaMint-HR: Total number of affiliations with party.SDAH: 2
-INFO[10] ParlaMint-HR: Total number of affiliations with party.SDP: 287
-INFO[10] ParlaMint-HR: Total number of affiliations with party.SDSS: 22
-INFO[10] ParlaMint-HR: Total number of affiliations with party.HRVATSKI_LABURISTI: 6
-INFO[10] ParlaMint-HR: Total number of affiliations with party.HSD: 1
-INFO[10] ParlaMint-HR: Total number of affiliations with party.BDSH: 1
-INFO[10] ParlaMint-HR: Total number of affiliations with party.HGS: 2
-INFO[10] ParlaMint-HR: Total number of affiliations with party.HSP_AS: 5
-INFO[10] ParlaMint-HR: Total number of affiliations with party.ID: 1
-INFO[10] ParlaMint-HR: Total number of affiliations with party.NAPRIJED_HRVATSKA: 1
-INFO[10] ParlaMint-HR: Total number of affiliations with party.NOVI_VAL: 1
-INFO[10] ParlaMint-HR: Total number of affiliations with party.ORAH: 3
-INFO[10] ParlaMint-HR: Total number of affiliations with party.REFORMISTI: 7
-INFO[10] ParlaMint-HR: Total number of affiliations with party.BM365: 1
-INFO[10] ParlaMint-HR: Total number of affiliations with party.BUZ: 1
-INFO[10] ParlaMint-HR: Total number of affiliations with party.HDS: 4
-INFO[10] ParlaMint-HR: Total number of affiliations with party.HRAST: 2
-INFO[10] ParlaMint-HR: Total number of affiliations with party.HRID: 2
-INFO[10] ParlaMint-HR: Total number of affiliations with party.MOST: 37
-INFO[10] ParlaMint-HR: Total number of affiliations with party.NLSP: 1
-INFO[10] ParlaMint-HR: Total number of affiliations with party.PH: 5
-INFO[10] ParlaMint-HR: Total number of affiliations with party.ŽIVI_ZID: 4
-INFO[10] ParlaMint-HR: Total number of affiliations with party.GLAS: 5
-INFO[10] ParlaMint-HR: Total number of affiliations with party.SMSH: 1
-INFO[10] ParlaMint-HR: Total number of affiliations with party.SNAGA: 1
-INFO[10] ParlaMint-HR: Total number of affiliations with party.DP: 11
-INFO[10] ParlaMint-HR: Total number of affiliations with party.ZK: 5
-INFO[10] ParlaMint-HR: Total number of affiliations with party.SIP: 1
-INFO[10] ParlaMint-HR: Total number of affiliations with party.PAMETNO: 1
-INFO[10] ParlaMint-HR: Total number of affiliations with party.FOKUS: 2
-INFO[10] ParlaMint-HR: Total number of affiliations with party.NEZAVISNI: 87
-INFO[10] ParlaMint-HR: Total number of affiliations with party.HS: 1
-INFO[10] ParlaMint-HR: Total number of affiliations with party.HKS: 1
-INFO[12] ParlaMint-HR: Total number of organizations with parliament role: 1
-INFO[12] ParlaMint-HR: Total number of organizations with government role: 1
-INFO[12] ParlaMint-HR: Total number of organizations with parliamentaryGroup role: 47
-INFO[??] ParlaMint-HR: Total number of affiliations 2282
-INFO[??] ParlaMint-HR: Total number of NO-role affiliations 0
-INFO[??] ParlaMint-HR: Total number of 'member' role affiliations 2282
+INFO[10] : Total number of affiliations with government.HR: 0
+ERROR[10] : government-role organisation without affiliation: #government.HR
+INFO[10] : Total number of affiliations with HS: 1141
+INFO[10] : Total number of affiliations with party.DC: 4
+INFO[10] : Total number of affiliations with party.HDSSB: 23
+INFO[10] : Total number of affiliations with party.HDZ: 458
+INFO[10] : Total number of affiliations with party.HNS: 56
+INFO[10] : Total number of affiliations with party.HSLS: 9
+INFO[10] : Total number of affiliations with party.HSP: 8
+INFO[10] : Total number of affiliations with party.HSS: 35
+INFO[10] : Total number of affiliations with party.HSU: 14
+INFO[10] : Total number of affiliations with party.IDS: 19
+INFO[10] : Total number of affiliations with party.LIBRA: 0
+WARN[10] : parliamentaryGroup-role organisation without affiliation: #party.LIBRA
+INFO[10] : Total number of affiliations with party.LS: 0
+WARN[10] : parliamentaryGroup-role organisation without affiliation: #party.LS
+INFO[10] : Total number of affiliations with party.MDS: 1
+INFO[10] : Total number of affiliations with party.PGS: 1
+INFO[10] : Total number of affiliations with party.SBHS: 1
+INFO[10] : Total number of affiliations with party.SDAH: 2
+INFO[10] : Total number of affiliations with party.SDP: 287
+INFO[10] : Total number of affiliations with party.SDSS: 22
+INFO[10] : Total number of affiliations with party.HRVATSKI_LABURISTI: 6
+INFO[10] : Total number of affiliations with party.HSD: 1
+INFO[10] : Total number of affiliations with party.BDSH: 1
+INFO[10] : Total number of affiliations with party.HGS: 2
+INFO[10] : Total number of affiliations with party.HSP_AS: 5
+INFO[10] : Total number of affiliations with party.ID: 1
+INFO[10] : Total number of affiliations with party.NAPRIJED_HRVATSKA: 1
+INFO[10] : Total number of affiliations with party.NOVI_VAL: 1
+INFO[10] : Total number of affiliations with party.ORAH: 3
+INFO[10] : Total number of affiliations with party.REFORMISTI: 7
+INFO[10] : Total number of affiliations with party.BM365: 1
+INFO[10] : Total number of affiliations with party.BUZ: 1
+INFO[10] : Total number of affiliations with party.HDS: 4
+INFO[10] : Total number of affiliations with party.HRAST: 2
+INFO[10] : Total number of affiliations with party.HRID: 2
+INFO[10] : Total number of affiliations with party.MOST: 37
+INFO[10] : Total number of affiliations with party.NLSP: 1
+INFO[10] : Total number of affiliations with party.PH: 5
+INFO[10] : Total number of affiliations with party.ŽIVI_ZID: 4
+INFO[10] : Total number of affiliations with party.GLAS: 5
+INFO[10] : Total number of affiliations with party.SMSH: 1
+INFO[10] : Total number of affiliations with party.SNAGA: 1
+INFO[10] : Total number of affiliations with party.DP: 11
+INFO[10] : Total number of affiliations with party.ZK: 5
+INFO[10] : Total number of affiliations with party.SIP: 1
+INFO[10] : Total number of affiliations with party.PAMETNO: 1
+INFO[10] : Total number of affiliations with party.FOKUS: 2
+INFO[10] : Total number of affiliations with party.NEZAVISNI: 87
+INFO[10] : Total number of affiliations with party.HS: 1
+INFO[10] : Total number of affiliations with party.HKS: 1
+INFO[12] : Total number of organizations with parliament role: 1
+INFO[12] : Total number of organizations with government role: 1
+INFO[12] : Total number of organizations with parliamentaryGroup role: 47
+INFO[??] : Total number of affiliations 2282
+INFO[??] : Total number of NO-role affiliations 0
+INFO[??] : Total number of 'member' role affiliations 2282
 INFO: Link checking for ParlaMint-HR.xml
 INFO: Validating component TEI file /home/rupnik/parlamint/ParlaMint/Data/ParlaMint-HR/ParlaMint-HR_T05_S01.xml
 INFO: XML validation for ParlaMint-HR_T05_S01.xml
